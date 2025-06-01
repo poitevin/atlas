@@ -81,6 +81,9 @@ const findAirportByCode = (code) => {
 };
 
 const App = () => {
+  // Get the Google API key from environment variables
+  const GOOGLE_API_KEY = process.env.REACT_APP_GOOGLE_API_KEY;
+
   const [bubbleStyle, setBubbleStyle] = useState({
     top: "-1000px",
     left: "-1000px",
@@ -201,6 +204,15 @@ const App = () => {
     }
   };
 
+  // Helper function to get secure map URL
+  const getSecureMapUrl = (airport) => {
+    if (!airport || !airport.static_map_url || !GOOGLE_API_KEY) {
+      return null;
+    }
+    // Replace placeholder with actual API key
+    return airport.static_map_url.replace('{API_KEY}', GOOGLE_API_KEY);
+  };
+
   let globalLineIndex = 0;
 
   return (
@@ -284,7 +296,7 @@ const App = () => {
               style={{
                 ...bubbleStyle,
                 backgroundImage: selectedAirport
-                  ? `url(${selectedAirport.static_map_url})`
+                  ? `url(${getSecureMapUrl(selectedAirport)})`
                   : "none",
                 backgroundSize: selectedAirport ? "cover" : "none",
               }}
