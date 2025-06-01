@@ -1,0 +1,279 @@
+/* =========================================
+   Pedro Poitevin Website Brand Styles
+   WITH ULTRA-COMPACT SPACING FOR FULL SONNET VISIBILITY
+   ========================================= */
+
+/* CSS Custom Properties (Variables) */
+:root {
+  /* Colors - matching your website */
+  --background-color: #fafafa;
+  --text-primary: #1a1a1a;
+  --text-secondary: #333;
+  --text-muted: #666;
+  --accent-color: #007acc;
+  --accent-hover: #005a99;
+  --border-color: #e5e5e5;
+  --white: #fff;
+  --light-gray: #f8f9fa;
+
+  /* Typography - your website fonts */
+  --font-family-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif;
+  --font-family-serif: "Crimson Text", Georgia, "Times New Roman", serif;
+
+  /* Transitions */
+  --transition-base: 0.3s ease;
+}
+
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family-sans);
+  background-color: var(--background-color);
+  color: var(--text-primary);
+  line-height: 1.65;
+  font-size: 16px;
+}
+
+/* Main App Container - EXACT from App.css but branded */
+.app {
+  padding: 20px;
+  font-family: var(--font-family-serif);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 800px;
+  margin: auto;
+  background-color: var(
+    --background-color
+  ); /* Brand background instead of image */
+  min-height: 100vh;
+}
+
+/* Title Container - EXACT from App.css */
+.title-container {
+  width: 100%;
+  padding: 0 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* Title - EXACT from App.css but brand colors */
+.title {
+  margin-top: 20px;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: var(--text-primary);
+  font-weight: 600;
+  font-family: var(--font-family-serif);
+}
+
+/* Subtitle for version info - COMPACT */
+.subtitle {
+  font-size: 1rem;
+  color: var(--text-muted);
+  font-style: italic;
+  margin-bottom: 0.5rem;
+  padding: 0 20px;
+  text-align: center;
+}
+
+/* CRITICAL: Sonnet Container - EXACT COMPACT SPACING from App.css */
+.sonnet {
+  font-size: 1.5rem; /* EXACT: Large enough to read */
+  line-height: 1.3rem; /* CRITICAL: Ultra-tight line spacing for compact display */
+  padding: 0 20px; /* EXACT: Horizontal padding only */
+  font-family: var(--font-family-serif);
+  color: var(--text-secondary);
+}
+
+/* CRITICAL: Sonnet Paragraphs - EXACT COMPACT SPACING from App.css */
+.sonnet p {
+  cursor: pointer;
+  margin: 10px 0; /* CRITICAL: Minimal vertical margins for compactness */
+  transition: color var(--transition-base), font-size var(--transition-base),
+    transform 0.1s ease-out;
+  color: var(--text-secondary);
+}
+
+.sonnet p:active {
+  transform: scale(1);
+}
+
+.sonnet p:first-child {
+  margin-top: 20px; /* EXACT: Space above first line only */
+}
+
+/* Hover effect - brand color instead of red */
+.sonnet p:hover {
+  color: var(--accent-color);
+  font-size: 1.3rem; /* EXACT: Slight increase on hover */
+  cursor: pointer;
+}
+
+/* CRITICAL: Stanza Break - EXACT COMPACT SPACING from App.css */
+.stanza-break {
+  height: 20px; /* CRITICAL: Minimal visual break between stanzas */
+}
+
+/* Author - EXACT from App.css */
+.author {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding: 0 20px;
+  font-size: 1.5rem;
+  font-style: italic;
+  text-align: left;
+  color: var(--text-muted);
+}
+
+/* Button - EXACT from App.css but brand styling */
+button {
+  font-family: var(--font-family-serif);
+  font-size: 1rem;
+  background-color: var(--white);
+  border: 2px solid var(--accent-color);
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 5px 10px;
+  margin-top: 10px;
+  margin-left: 16px;
+  color: var(--accent-color);
+  transition: all var(--transition-base);
+}
+
+button:hover {
+  background-color: var(--accent-color);
+  color: var(--white);
+  transform: translateY(-1px);
+}
+
+/* Sonnet Index - EXACT from App.css */
+.sonnet-index {
+  font-size: medium;
+  padding: 0 100px;
+  color: var(--text-muted);
+}
+
+/* COMPACT Brand Info Sections - MINIMAL spacing */
+.brand-info-section {
+  background: var(--light-gray);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 10px 15px; /* COMPACT: Minimal padding */
+  margin: 5px 20px; /* COMPACT: Minimal margins */
+  font-size: 0.85rem; /* COMPACT: Smaller text */
+  color: var(--text-muted);
+  text-align: center;
+}
+
+.brand-constraint-note {
+  background: var(--light-gray);
+  padding: 10px 15px; /* COMPACT: Minimal padding */
+  border-radius: 6px;
+  border-left: 4px solid var(--accent-color);
+  font-size: 0.85rem; /* COMPACT: Smaller text */
+  color: var(--text-muted);
+  font-style: italic;
+  margin: 5px 20px; /* COMPACT: Minimal margins */
+  text-align: center;
+}
+
+.brand-constraint-note strong {
+  color: var(--text-secondary);
+  font-style: normal;
+}
+
+/* Links */
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+  transition: color var(--transition-base);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* CRITICAL: Mobile Responsive - PRESERVE COMPACT SPACING */
+@media (max-width: 768px) {
+  .app {
+    padding: 15px;
+  }
+
+  .title-container {
+    padding: 0 15px;
+  }
+
+  .title {
+    font-size: 1.8rem; /* Slightly smaller but still readable */
+  }
+
+  /* CRITICAL: Keep sonnet compact on mobile */
+  .sonnet {
+    padding: 0 15px;
+    font-size: 1.3rem; /* Slightly smaller for mobile */
+    line-height: 1.1rem; /* CRITICAL: Even tighter on mobile */
+  }
+
+  .sonnet p {
+    margin: 8px 0; /* CRITICAL: Even tighter margins on mobile */
+  }
+
+  .sonnet p:hover {
+    font-size: 1.15rem; /* Smaller hover increase on mobile */
+  }
+
+  .stanza-break {
+    height: 15px; /* CRITICAL: Even more compact stanza breaks on mobile */
+  }
+
+  .author {
+    padding: 0 15px;
+    font-size: 1.3rem;
+  }
+
+  .brand-info-section,
+  .brand-constraint-note {
+    margin: 5px 15px;
+    padding: 8px 12px; /* CRITICAL: Even more compact on mobile */
+    font-size: 0.8rem;
+  }
+
+  button {
+    margin-left: 11px;
+  }
+}
+
+/* CRITICAL: Ensure entire sonnet fits in viewport */
+@media (max-height: 700px) {
+  .sonnet {
+    font-size: 1.2rem;
+    line-height: 1rem;
+  }
+
+  .sonnet p {
+    margin: 6px 0;
+  }
+
+  .stanza-break {
+    height: 12px;
+  }
+
+  .title {
+    font-size: 1.6rem;
+    margin-top: 15px;
+  }
+
+  .brand-info-section,
+  .brand-constraint-note {
+    padding: 6px 10px;
+    font-size: 0.75rem;
+    margin: 3px 20px;
+  }
+}
