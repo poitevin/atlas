@@ -6,7 +6,7 @@
     "country": "US",
     "lat": 38.71492,
     "lon": -77.18089,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=38.71492,-77.18089&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=38.71492,-77.18089&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "EST",
@@ -15,7 +15,7 @@
     "country": "US",
     "lat": 43.40747,
     "lon": -94.74639,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=43.40747,-94.74639&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=43.40747,-94.74639&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "MIA",
@@ -24,7 +24,7 @@
     "country": "US",
     "lat": 25.79536,
     "lon": -80.29012,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=25.79536,-80.29012&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=25.79536,-80.29012&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ASM",
@@ -33,7 +33,7 @@
     "country": "ER",
     "lat": 15.2919,
     "lon": 38.9107,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=15.2919,38.9107&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=15.2919,38.9107&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ARG",
@@ -42,7 +42,7 @@
     "country": "US",
     "lat": 36.12467,
     "lon": -90.92511,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=36.12467,-90.92511&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=36.12467,-90.92511&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ATL",
@@ -51,7 +51,7 @@
     "country": "US",
     "lat": 33.6367,
     "lon": -84.42786,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=33.6367,-84.42786&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=33.6367,-84.42786&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ASO",
@@ -60,7 +60,7 @@
     "country": "ET",
     "lat": 10.0185,
     "lon": 34.5863,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=10.0185,34.5863&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=10.0185,34.5863&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "CUL",
@@ -69,7 +69,7 @@
     "country": "MX",
     "lat": 24.7645,
     "lon": -107.475,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=24.7645,-107.475&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=24.7645,-107.475&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "TOD",
@@ -78,7 +78,7 @@
     "country": "MY",
     "lat": 2.81818,
     "lon": 104.16,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=2.81818,104.16&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=2.81818,104.16&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ELA",
@@ -87,7 +87,7 @@
     "country": "US",
     "lat": 29.60003,
     "lon": -96.32194,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=29.60003,-96.32194&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=29.60003,-96.32194&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "INM",
@@ -96,7 +96,7 @@
     "country": "AU",
     "lat": -27.7,
     "lon": 140.733,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-27.7,140.733&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-27.7,140.733&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ENS",
@@ -105,7 +105,7 @@
     "country": "NL",
     "lat": 52.27,
     "lon": 6.87417,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=52.27,6.87417&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=52.27,6.87417&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ARU",
@@ -114,7 +114,7 @@
     "country": "BR",
     "lat": -21.1413,
     "lon": -50.4247,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-21.1413,-50.4247&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-21.1413,-50.4247&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "INA",
@@ -123,7 +123,7 @@
     "country": "RU",
     "lat": 66.05483,
     "lon": 60.11032,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=66.05483,60.11032&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=66.05483,60.11032&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ELA",
@@ -132,7 +132,7 @@
     "country": "US",
     "lat": 29.60003,
     "lon": -96.32194,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=29.60003,-96.32194&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=29.60003,-96.32194&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "LBA",
@@ -141,7 +141,7 @@
     "country": "GB",
     "lat": 53.8659,
     "lon": -1.66057,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=53.8659,-1.66057&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=53.8659,-1.66057&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "INU",
@@ -150,7 +150,7 @@
     "country": "NR",
     "lat": -0.54746,
     "lon": 166.91901,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-0.54746,166.91901&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-0.54746,166.91901&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "NDA",
@@ -159,7 +159,7 @@
     "country": "ID",
     "lat": 5.11667,
     "lon": 97.1167,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=5.11667,97.1167&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=5.11667,97.1167&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ELC",
@@ -168,7 +168,7 @@
     "country": "AU",
     "lat": -12.0194,
     "lon": 135.571,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-12.0194,135.571&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-12.0194,135.571&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "AUC",
@@ -177,7 +177,7 @@
     "country": "CO",
     "lat": 7.06888,
     "lon": -70.7369,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=7.06888,-70.7369&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=7.06888,-70.7369&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "EDE",
@@ -186,7 +186,7 @@
     "country": "US",
     "lat": 36.02859,
     "lon": -76.56977,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=36.02859,-76.56977&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=36.02859,-76.56977&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "LSI",
@@ -195,7 +195,7 @@
     "country": "GB",
     "lat": 59.8789,
     "lon": -1.29556,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=59.8789,-1.29556&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=59.8789,-1.29556&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "LEN",
@@ -204,7 +204,7 @@
     "country": "ES",
     "lat": 42.589,
     "lon": -5.65556,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=42.589,-5.65556&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=42.589,-5.65556&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "CIO",
@@ -213,7 +213,7 @@
     "country": "PY",
     "lat": -23.44,
     "lon": -57.43,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-23.44,-57.43&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-23.44,-57.43&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "MIE",
@@ -222,7 +222,7 @@
     "country": "US",
     "lat": 40.24247,
     "lon": -85.39575,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=40.24247,-85.39575&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=40.24247,-85.39575&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "NTR",
@@ -231,7 +231,7 @@
     "country": "MX",
     "lat": 25.8656,
     "lon": -100.237,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=25.8656,-100.237&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=25.8656,-100.237&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ASD",
@@ -240,7 +240,7 @@
     "country": "BS",
     "lat": 24.6979,
     "lon": -77.7956,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=24.6979,-77.7956&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=24.6979,-77.7956&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ESD",
@@ -249,7 +249,7 @@
     "country": "US",
     "lat": 48.70834,
     "lon": -122.9106,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=48.70834,-122.9106&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=48.70834,-122.9106&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ELA",
@@ -258,7 +258,7 @@
     "country": "US",
     "lat": 29.60003,
     "lon": -96.32194,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=29.60003,-96.32194&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=29.60003,-96.32194&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "SCO",
@@ -267,7 +267,7 @@
     "country": "KZ",
     "lat": 43.8601,
     "lon": 51.092,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=43.8601,51.092&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=43.8601,51.092&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "PAS",
@@ -276,7 +276,7 @@
     "country": "GR",
     "lat": 37.0103,
     "lon": 25.1281,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=37.0103,25.1281&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=37.0103,25.1281&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "MUS",
@@ -285,7 +285,7 @@
     "country": "JP",
     "lat": 24.2897,
     "lon": 153.979,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=24.2897,153.979&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=24.2897,153.979&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ITA",
@@ -294,7 +294,7 @@
     "country": "BR",
     "lat": -3.12726,
     "lon": -58.4812,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-3.12726,-58.4812&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-3.12726,-58.4812&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "NLA",
@@ -303,7 +303,7 @@
     "country": "ZM",
     "lat": -12.9981,
     "lon": 28.6649,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-12.9981,28.6649&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-12.9981,28.6649&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "SAL",
@@ -312,7 +312,7 @@
     "country": "SV",
     "lat": 13.4409,
     "lon": -89.0557,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=13.4409,-89.0557&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=13.4409,-89.0557&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "OND",
@@ -321,7 +321,7 @@
     "country": "NA",
     "lat": -17.8782,
     "lon": 15.9526,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-17.8782,15.9526&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-17.8782,15.9526&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "RAS",
@@ -330,7 +330,7 @@
     "country": "IR",
     "lat": 37.32333,
     "lon": 49.61778,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=37.32333,49.61778&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=37.32333,49.61778&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "DES",
@@ -339,7 +339,7 @@
     "country": "SC",
     "lat": -5.6967,
     "lon": 53.6558,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-5.6967,53.6558&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-5.6967,53.6558&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "PIE",
@@ -348,7 +348,7 @@
     "country": "US",
     "lat": 27.90863,
     "lon": -82.68651,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=27.90863,-82.68651&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=27.90863,-82.68651&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "RTA",
@@ -357,7 +357,7 @@
     "country": "FJ",
     "lat": -12.4825,
     "lon": 177.071,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-12.4825,177.071&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-12.4825,177.071&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "STI",
@@ -366,7 +366,7 @@
     "country": "DO",
     "lat": 19.4061,
     "lon": -70.6047,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=19.4061,-70.6047&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=19.4061,-70.6047&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "TUB",
@@ -375,7 +375,7 @@
     "country": "PF",
     "lat": -23.3654,
     "lon": -149.524,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-23.3654,-149.524&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-23.3654,-149.524&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "EAN",
@@ -384,7 +384,7 @@
     "country": "US",
     "lat": 42.05552,
     "lon": -104.92828,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=42.05552,-104.92828&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=42.05552,-104.92828&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "TES",
@@ -393,7 +393,7 @@
     "country": "ER",
     "lat": 15.117,
     "lon": 36.683,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=15.117,36.683&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=15.117,36.683&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ELM",
@@ -402,7 +402,7 @@
     "country": "US",
     "lat": 42.2,
     "lon": -76.9,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=42.2,-76.9&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=42.2,-76.9&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ILA",
@@ -411,7 +411,7 @@
     "country": "ID",
     "lat": -3.83328,
     "lon": 137.58299,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-3.83328,137.58299&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-3.83328,137.58299&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "GRO",
@@ -420,7 +420,7 @@
     "country": "ES",
     "lat": 41.901,
     "lon": 2.76055,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=41.901,2.76055&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=41.901,2.76055&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "DEL",
@@ -429,7 +429,7 @@
     "country": "IN",
     "lat": 28.5665,
     "lon": 77.1031,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=28.5665,77.1031&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=28.5665,77.1031&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "DIA",
@@ -438,7 +438,7 @@
     "country": "QA",
     "lat": 25.2611,
     "lon": 51.5651,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=25.2611,51.5651&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=25.2611,51.5651&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ENS",
@@ -447,7 +447,7 @@
     "country": "NL",
     "lat": 52.27,
     "lon": 6.87417,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=52.27,6.87417&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=52.27,6.87417&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "USA",
@@ -456,7 +456,7 @@
     "country": "US",
     "lat": 35.38777,
     "lon": -80.70913,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=35.38777,-80.70913&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=35.38777,-80.70913&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "LAS",
@@ -465,7 +465,7 @@
     "country": "US",
     "lat": 36.08004,
     "lon": -115.15223,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=36.08004,-115.15223&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=36.08004,-115.15223&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "AGU",
@@ -474,7 +474,7 @@
     "country": "MX",
     "lat": 21.7056,
     "lon": -102.318,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=21.7056,-102.318&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=21.7056,-102.318&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "DAS",
@@ -483,7 +483,7 @@
     "country": "CA",
     "lat": 66.7031,
     "lon": -119.707,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=66.7031,-119.707&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=66.7031,-119.707&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "UNA",
@@ -492,7 +492,7 @@
     "country": "BR",
     "lat": -15.3552,
     "lon": -38.999,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-15.3552,-38.999&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-15.3552,-38.999&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ALE",
@@ -501,7 +501,7 @@
     "country": "US",
     "lat": 30.38422,
     "lon": -103.68358,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=30.38422,-103.68358&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=30.38422,-103.68358&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "GRI",
@@ -510,7 +510,7 @@
     "country": "US",
     "lat": 40.96754,
     "lon": -98.30964,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=40.96754,-98.30964&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=40.96754,-98.30964&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ATE",
@@ -519,7 +519,7 @@
     "country": "US",
     "lat": 34.19357,
     "lon": -95.64986,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=34.19357,-95.64986&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=34.19357,-95.64986&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "NUE",
@@ -528,7 +528,7 @@
     "country": "DE",
     "lat": 49.4987,
     "lon": 11.0669,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=49.4987,11.0669&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=49.4987,11.0669&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "COM",
@@ -537,7 +537,7 @@
     "country": "US",
     "lat": 31.84114,
     "lon": -99.40361,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=31.84114,-99.40361&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=31.84114,-99.40361&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "OUN",
@@ -546,7 +546,7 @@
     "country": "US",
     "lat": 35.24556,
     "lon": -97.47214,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=35.24556,-97.47214&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=35.24556,-97.47214&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "MUR",
@@ -555,7 +555,7 @@
     "country": "MY",
     "lat": 4.17898,
     "lon": 114.329,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=4.17898,114.329&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=4.17898,114.329&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "MUL",
@@ -564,7 +564,7 @@
     "country": "US",
     "lat": 31.13769,
     "lon": -83.70406,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=31.13769,-83.70406&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=31.13769,-83.70406&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "LOE",
@@ -573,7 +573,7 @@
     "country": "TH",
     "lat": 17.4391,
     "lon": 101.722,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=17.4391,101.722&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=17.4391,101.722&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "NNU",
@@ -582,7 +582,7 @@
     "country": "BR",
     "lat": -17.8233,
     "lon": -40.3299,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-17.8233,-40.3299&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-17.8233,-40.3299&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "BES",
@@ -591,7 +591,7 @@
     "country": "FR",
     "lat": 48.4479,
     "lon": -4.41854,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=48.4479,-4.41854&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=48.4479,-4.41854&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "SAL",
@@ -600,7 +600,7 @@
     "country": "SV",
     "lat": 13.4409,
     "lon": -89.0557,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=13.4409,-89.0557&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=13.4409,-89.0557&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "EUN",
@@ -609,7 +609,7 @@
     "country": "EH",
     "lat": 27.1517,
     "lon": -13.2192,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=27.1517,-13.2192&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=27.1517,-13.2192&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "HOM",
@@ -618,7 +618,7 @@
     "country": "US",
     "lat": 59.64499,
     "lon": -151.48581,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=59.64499,-151.48581&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=59.64499,-151.48581&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "BRE",
@@ -627,7 +627,7 @@
     "country": "DE",
     "lat": 53.0475,
     "lon": 8.78667,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=53.0475,8.78667&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=53.0475,8.78667&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ENH",
@@ -636,7 +636,7 @@
     "country": "CN",
     "lat": 30.3203,
     "lon": 109.485,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=30.3203,109.485&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=30.3203,109.485&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ARA",
@@ -645,7 +645,7 @@
     "country": "US",
     "lat": 30.03776,
     "lon": -91.8839,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=30.03776,-91.8839&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=30.03776,-91.8839&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "POS",
@@ -654,7 +654,7 @@
     "country": "TT",
     "lat": 10.5954,
     "lon": -61.3372,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=10.5954,-61.3372&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=10.5954,-61.3372&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "TOD",
@@ -663,7 +663,7 @@
     "country": "MY",
     "lat": 2.81818,
     "lon": 104.16,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=2.81818,104.16&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=2.81818,104.16&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "AVI",
@@ -672,7 +672,7 @@
     "country": "CU",
     "lat": 22.0271,
     "lon": -78.7896,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=22.0271,-78.7896&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=22.0271,-78.7896&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ASO",
@@ -681,7 +681,7 @@
     "country": "ET",
     "lat": 10.0185,
     "lon": 34.5863,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=10.0185,34.5863&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=10.0185,34.5863&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "MNO",
@@ -690,7 +690,7 @@
     "country": "CD",
     "lat": -7.28889,
     "lon": 27.3944,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-7.28889,27.3944&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-7.28889,27.3944&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "LIE",
@@ -699,7 +699,7 @@
     "country": "CD",
     "lat": 3.633,
     "lon": 18.633,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=3.633,18.633&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=3.633,18.633&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "NTO",
@@ -708,7 +708,7 @@
     "country": "CV",
     "lat": 17.2028,
     "lon": -25.0906,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=17.2028,-25.0906&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=17.2028,-25.0906&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ARE",
@@ -717,7 +717,7 @@
     "country": "US",
     "lat": 18.4509,
     "lon": -66.67545,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=18.4509,-66.67545&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=18.4509,-66.67545&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "GAR",
@@ -726,7 +726,7 @@
     "country": "PG",
     "lat": -7.87563,
     "lon": 147.14127,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-7.87563,147.14127&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-7.87563,147.14127&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "FLO",
@@ -735,7 +735,7 @@
     "country": "US",
     "lat": 34.18536,
     "lon": -79.72389,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=34.18536,-79.72389&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=34.18536,-79.72389&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "RES",
@@ -744,7 +744,7 @@
     "country": "AR",
     "lat": -27.45,
     "lon": -59.0561,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-27.45,-59.0561&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-27.45,-59.0561&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "YTR",
@@ -753,7 +753,7 @@
     "country": "CA",
     "lat": 44.1189,
     "lon": -77.5281,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=44.1189,-77.5281&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=44.1189,-77.5281&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "APE",
@@ -762,7 +762,7 @@
     "country": "PE",
     "lat": -15.3539,
     "lon": -75.1671,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-15.3539,-75.1671&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-15.3539,-75.1671&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ARE",
@@ -771,7 +771,7 @@
     "country": "US",
     "lat": 18.4509,
     "lon": -66.67545,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=18.4509,-66.67545&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=18.4509,-66.67545&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "LPA",
@@ -780,7 +780,7 @@
     "country": "ES",
     "lat": 27.9319,
     "lon": -15.3866,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=27.9319,-15.3866&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=27.9319,-15.3866&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "TIO",
@@ -789,7 +789,7 @@
     "country": "MM",
     "lat": 21.7,
     "lon": 94.1,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=21.7,94.1&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=21.7,94.1&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "SUM",
@@ -798,7 +798,7 @@
     "country": "US",
     "lat": 33.99503,
     "lon": -80.36133,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=33.99503,-80.36133&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=33.99503,-80.36133&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "IRA",
@@ -807,7 +807,7 @@
     "country": "SB",
     "lat": -10.4497,
     "lon": 161.89799,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-10.4497,161.89799&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-10.4497,161.89799&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "DAS",
@@ -816,7 +816,7 @@
     "country": "CA",
     "lat": 66.7031,
     "lon": -119.707,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=66.7031,-119.707&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=66.7031,-119.707&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "UMI",
@@ -825,7 +825,7 @@
     "country": "PE",
     "lat": -13.2333,
     "lon": -70.7533,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-13.2333,-70.7533&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-13.2333,-70.7533&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "DAE",
@@ -834,7 +834,7 @@
     "country": "IN",
     "lat": 27.9855,
     "lon": 94.2228,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=27.9855,94.2228&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=27.9855,94.2228&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "NCO",
@@ -843,7 +843,7 @@
     "country": "US",
     "lat": 41.59714,
     "lon": -71.41214,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=41.59714,-71.41214&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=41.59714,-71.41214&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "SAS",
@@ -852,7 +852,7 @@
     "country": "US",
     "lat": 33.24119,
     "lon": -115.95258,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=33.24119,-115.95258&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=33.24119,-115.95258&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "MUY",
@@ -861,7 +861,7 @@
     "country": "CG",
     "lat": -4.01487,
     "lon": 13.96611,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-4.01487,13.96611&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-4.01487,13.96611&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "CON",
@@ -870,7 +870,7 @@
     "country": "US",
     "lat": 43.20272,
     "lon": -71.50228,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=43.20272,-71.50228&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=43.20272,-71.50228&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "CRE",
@@ -879,7 +879,7 @@
     "country": "US",
     "lat": 33.81175,
     "lon": -78.72394,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=33.81175,-78.72394&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=33.81175,-78.72394&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "TAS",
@@ -888,7 +888,7 @@
     "country": "UZ",
     "lat": 41.2579,
     "lon": 69.2812,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=41.2579,69.2812&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=41.2579,69.2812&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "RAI",
@@ -897,7 +897,7 @@
     "country": "CV",
     "lat": 14.9245,
     "lon": -23.4935,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=14.9245,-23.4935&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=14.9245,-23.4935&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "CES",
@@ -906,7 +906,7 @@
     "country": "AU",
     "lat": -32.7875,
     "lon": 151.342,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-32.7875,151.342&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-32.7875,151.342&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "TAL",
@@ -915,7 +915,7 @@
     "country": "US",
     "lat": 65.17439,
     "lon": -152.10811,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=65.17439,-152.10811&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=65.17439,-152.10811&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "LOS",
@@ -924,7 +924,7 @@
     "country": "NG",
     "lat": 6.57737,
     "lon": 3.32116,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=6.57737,3.32116&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=6.57737,3.32116&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "YHO",
@@ -933,7 +933,7 @@
     "country": "CA",
     "lat": 55.4483,
     "lon": -60.2286,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=55.4483,-60.2286&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=55.4483,-60.2286&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "JAS",
@@ -942,7 +942,7 @@
     "country": "US",
     "lat": 30.88569,
     "lon": -94.03494,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=30.88569,-94.03494&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=30.88569,-94.03494&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "YSU",
@@ -951,7 +951,7 @@
     "country": "CA",
     "lat": 46.4406,
     "lon": -63.8336,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=46.4406,-63.8336&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=46.4406,-63.8336&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "MEM",
@@ -960,7 +960,7 @@
     "country": "US",
     "lat": 35.04241,
     "lon": -89.97668,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=35.04241,-89.97668&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=35.04241,-89.97668&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ORI",
@@ -969,7 +969,7 @@
     "country": "US",
     "lat": 57.88493,
     "lon": -152.84757,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=57.88493,-152.84757&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=57.88493,-152.84757&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ADE",
@@ -978,7 +978,7 @@
     "country": "YE",
     "lat": 12.8295,
     "lon": 45.0288,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=12.8295,45.0288&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=12.8295,45.0288&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "LIN",
@@ -987,7 +987,7 @@
     "country": "IT",
     "lat": 45.4451,
     "lon": 9.27674,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=45.4451,9.27674&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=45.4451,9.27674&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "EAN",
@@ -996,7 +996,7 @@
     "country": "US",
     "lat": 42.05552,
     "lon": -104.92828,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=42.05552,-104.92828&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=42.05552,-104.92828&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "DOE",
@@ -1005,7 +1005,7 @@
     "country": "SR",
     "lat": 4.00571,
     "lon": -55.48164,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=4.00571,-55.48164&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=4.00571,-55.48164&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "LBO",
@@ -1014,7 +1014,7 @@
     "country": "CD",
     "lat": -4.96167,
     "lon": 23.3783,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-4.96167,23.3783&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-4.96167,23.3783&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "RDE",
@@ -1023,7 +1023,7 @@
     "country": "ID",
     "lat": -1.58333,
     "lon": 133.33299,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-1.58333,133.33299&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-1.58333,133.33299&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "DEL",
@@ -1032,7 +1032,7 @@
     "country": "IN",
     "lat": 28.5665,
     "lon": 77.1031,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=28.5665,77.1031&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=28.5665,77.1031&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "MUN",
@@ -1041,7 +1041,7 @@
     "country": "VE",
     "lat": 9.75453,
     "lon": -63.1474,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=9.75453,-63.1474&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=9.75453,-63.1474&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "DOE",
@@ -1050,7 +1050,7 @@
     "country": "SR",
     "lat": 4.00571,
     "lon": -55.48164,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=4.00571,-55.48164&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=4.00571,-55.48164&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "NEL",
@@ -1059,7 +1059,7 @@
     "country": "US",
     "lat": 40.03578,
     "lon": -74.35137,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=40.03578,-74.35137&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=40.03578,-74.35137&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "POE",
@@ -1068,7 +1068,7 @@
     "country": "US",
     "lat": 31.0,
     "lon": -93.2,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=31.0,-93.2&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=31.0,-93.2&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "MAQ",
@@ -1077,7 +1077,7 @@
     "country": "TH",
     "lat": 16.6999,
     "lon": 98.5451,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=16.6999,98.5451&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=16.6999,98.5451&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "UEE",
@@ -1086,7 +1086,7 @@
     "country": "AU",
     "lat": -42.075,
     "lon": 145.532,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-42.075,145.532&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-42.075,145.532&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "LBO",
@@ -1095,7 +1095,7 @@
     "country": "CD",
     "lat": -4.96167,
     "lon": 23.3783,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-4.96167,23.3783&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-4.96167,23.3783&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "SQU",
@@ -1104,7 +1104,7 @@
     "country": "PE",
     "lat": -6.96003,
     "lon": -76.7684,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-6.96003,-76.7684&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-6.96003,-76.7684&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "EJA",
@@ -1113,7 +1113,7 @@
     "country": "CO",
     "lat": 7.02433,
     "lon": -73.8068,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=7.02433,-73.8068&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=7.02433,-73.8068&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "POC",
@@ -1122,7 +1122,7 @@
     "country": "US",
     "lat": 34.09167,
     "lon": -117.78178,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=34.09167,-117.78178&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=34.09167,-117.78178&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ASH",
@@ -1131,7 +1131,7 @@
     "country": "US",
     "lat": 42.78241,
     "lon": -71.51409,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=42.78241,-71.51409&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=42.78241,-71.51409&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ORA",
@@ -1140,7 +1140,7 @@
     "country": "AR",
     "lat": -23.1528,
     "lon": -64.3292,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-23.1528,-64.3292&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-23.1528,-64.3292&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "SMA",
@@ -1149,7 +1149,7 @@
     "country": "PT",
     "lat": 36.9714,
     "lon": -25.1706,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=36.9714,-25.1706&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=36.9714,-25.1706&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "STA",
@@ -1158,7 +1158,7 @@
     "country": "DK",
     "lat": 55.9901,
     "lon": 8.35391,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=55.9901,8.35391&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=55.9901,8.35391&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "RDE",
@@ -1167,7 +1167,7 @@
     "country": "ID",
     "lat": -1.58333,
     "lon": 133.33299,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-1.58333,133.33299&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-1.58333,133.33299&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ENE",
@@ -1176,7 +1176,7 @@
     "country": "ID",
     "lat": -8.84929,
     "lon": 121.661,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-8.84929,121.661&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-8.84929,121.661&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "LBU",
@@ -1185,7 +1185,7 @@
     "country": "MY",
     "lat": 5.30068,
     "lon": 115.25,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=5.30068,115.25&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=5.30068,115.25&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "LLI",
@@ -1194,7 +1194,7 @@
     "country": "ET",
     "lat": 11.975,
     "lon": 38.98,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=11.975,38.98&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=11.975,38.98&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "CIO",
@@ -1203,7 +1203,7 @@
     "country": "PY",
     "lat": -23.44,
     "lon": -57.43,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-23.44,-57.43&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-23.44,-57.43&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "DEL",
@@ -1212,7 +1212,7 @@
     "country": "IN",
     "lat": 28.5665,
     "lon": 77.1031,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=28.5665,77.1031&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=28.5665,77.1031&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "TRA",
@@ -1221,7 +1221,7 @@
     "country": "JP",
     "lat": 24.6539,
     "lon": 124.675,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=24.6539,124.675&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=24.6539,124.675&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "NSI",
@@ -1230,7 +1230,7 @@
     "country": "CM",
     "lat": 3.72256,
     "lon": 11.5533,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=3.72256,11.5533&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=3.72256,11.5533&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "TOQ",
@@ -1239,7 +1239,7 @@
     "country": "CL",
     "lat": -22.1411,
     "lon": -70.0629,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-22.1411,-70.0629&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-22.1411,-70.0629&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "UEN",
@@ -1248,7 +1248,7 @@
     "country": "RU",
     "lat": 65.96,
     "lon": 78.437,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=65.96,78.437&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=65.96,78.437&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "OSE",
@@ -1257,7 +1257,7 @@
     "country": "PG",
     "lat": -7.82778,
     "lon": 147.08064,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-7.82778,147.08064&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-7.82778,147.08064&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "NER",
@@ -1266,7 +1266,7 @@
     "country": "RU",
     "lat": 56.9139,
     "lon": 124.914,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=56.9139,124.914&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=56.9139,124.914&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "VAA",
@@ -1275,7 +1275,7 @@
     "country": "FI",
     "lat": 63.0507,
     "lon": 21.7622,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=63.0507,21.7622&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=63.0507,21.7622&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "TAN",
@@ -1284,7 +1284,7 @@
     "country": "AU",
     "lat": -27.13,
     "lon": 153.36301,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-27.13,153.36301&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-27.13,153.36301&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "TOS",
@@ -1293,7 +1293,7 @@
     "country": "NO",
     "lat": 69.6833,
     "lon": 18.9189,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=69.6833,18.9189&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=69.6833,18.9189&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "LOS",
@@ -1302,7 +1302,7 @@
     "country": "NG",
     "lat": 6.57737,
     "lon": 3.32116,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=6.57737,3.32116&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=6.57737,3.32116&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "MER",
@@ -1311,7 +1311,7 @@
     "country": "US",
     "lat": 37.4,
     "lon": -120.6,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=37.4,-120.6&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=37.4,-120.6&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "CAD",
@@ -1320,7 +1320,7 @@
     "country": "US",
     "lat": 44.27533,
     "lon": -85.41892,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=44.27533,-85.41892&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=44.27533,-85.41892&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "OSS",
@@ -1329,7 +1329,7 @@
     "country": "KG",
     "lat": 40.609,
     "lon": 72.7933,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=40.609,72.7933&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=40.609,72.7933&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ELL",
@@ -1338,7 +1338,7 @@
     "country": "ZA",
     "lat": -23.7267,
     "lon": 27.6883,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-23.7267,27.6883&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-23.7267,27.6883&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ENA",
@@ -1347,7 +1347,7 @@
     "country": "US",
     "lat": 60.57328,
     "lon": -151.24483,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=60.57328,-151.24483&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=60.57328,-151.24483&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "NLA",
@@ -1356,7 +1356,7 @@
     "country": "ZM",
     "lat": -12.9981,
     "lon": 28.6649,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-12.9981,28.6649&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-12.9981,28.6649&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "MAS",
@@ -1365,7 +1365,7 @@
     "country": "PG",
     "lat": -2.06189,
     "lon": 147.424,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-2.06189,147.424&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-2.06189,147.424&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "AAT",
@@ -1374,7 +1374,7 @@
     "country": "CN",
     "lat": 47.74989,
     "lon": 88.08581,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=47.74989,88.08581&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=47.74989,88.08581&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "OLO",
@@ -1383,7 +1383,7 @@
     "country": "CZ",
     "lat": 49.5878,
     "lon": 17.2108,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=49.5878,17.2108&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=49.5878,17.2108&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "NDR",
@@ -1392,7 +1392,7 @@
     "country": "MA",
     "lat": 34.9888,
     "lon": -3.02821,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=34.9888,-3.02821&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=34.9888,-3.02821&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ADA",
@@ -1401,7 +1401,7 @@
     "country": "TR",
     "lat": 36.9822,
     "lon": 35.2804,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=36.9822,35.2804&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=36.9822,35.2804&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "DES",
@@ -1410,7 +1410,7 @@
     "country": "SC",
     "lat": -5.6967,
     "lon": 53.6558,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-5.6967,53.6558&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-5.6967,53.6558&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "LIZ",
@@ -1419,7 +1419,7 @@
     "country": "US",
     "lat": 46.95043,
     "lon": -67.88586,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=46.95043,-67.88586&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=46.95043,-67.88586&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "AND",
@@ -1428,7 +1428,7 @@
     "country": "US",
     "lat": 34.49458,
     "lon": -82.70939,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=34.49458,-82.70939&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=34.49458,-82.70939&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "OSE",
@@ -1437,7 +1437,7 @@
     "country": "PG",
     "lat": -7.82778,
     "lon": 147.08064,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-7.82778,147.08064&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-7.82778,147.08064&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ENF",
@@ -1446,7 +1446,7 @@
     "country": "FI",
     "lat": 68.3626,
     "lon": 23.4243,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=68.3626,23.4243&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=68.3626,23.4243&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ILA",
@@ -1455,7 +1455,7 @@
     "country": "ID",
     "lat": -3.83328,
     "lon": 137.58299,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-3.83328,137.58299&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-3.83328,137.58299&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "POR",
@@ -1464,7 +1464,7 @@
     "country": "FI",
     "lat": 61.4617,
     "lon": 21.8,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=61.4617,21.8&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=61.4617,21.8&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "BRI",
@@ -1473,7 +1473,7 @@
     "country": "IT",
     "lat": 41.1389,
     "lon": 16.7606,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=41.1389,16.7606&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=41.1389,16.7606&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "LLA",
@@ -1482,7 +1482,7 @@
     "country": "SE",
     "lat": 65.5438,
     "lon": 22.122,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=65.5438,22.122&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=65.5438,22.122&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "NTE",
@@ -1491,7 +1491,7 @@
     "country": "FR",
     "lat": 47.1532,
     "lon": -1.61073,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=47.1532,-1.61073&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=47.1532,-1.61073&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "SPA",
@@ -1500,7 +1500,7 @@
     "country": "US",
     "lat": 34.91642,
     "lon": -81.95578,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=34.91642,-81.95578&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=34.91642,-81.95578&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "SIL",
@@ -1509,7 +1509,7 @@
     "country": "PG",
     "lat": -9.07356,
     "lon": 148.38925,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-9.07356,148.38925&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-9.07356,148.38925&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "LOS",
@@ -1518,7 +1518,7 @@
     "country": "NG",
     "lat": 6.57737,
     "lon": 3.32116,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=6.57737,3.32116&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=6.57737,3.32116&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "DON",
@@ -1527,7 +1527,7 @@
     "country": "GT",
     "lat": 17.6124,
     "lon": -89.6884,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=17.6124,-89.6884&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=17.6124,-89.6884&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "DEM",
@@ -1536,7 +1536,7 @@
     "country": "ET",
     "lat": 8.554,
     "lon": 34.858,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=8.554,34.858&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=8.554,34.858&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ANO",
@@ -1545,7 +1545,7 @@
     "country": "MZ",
     "lat": -16.18187,
     "lon": 39.94522,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-16.18187,39.94522&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-16.18187,39.94522&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "SSO",
@@ -1554,7 +1554,7 @@
     "country": "BR",
     "lat": -22.0909,
     "lon": -45.0445,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-22.0909,-45.0445&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-22.0909,-45.0445&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "PES",
@@ -1563,7 +1563,7 @@
     "country": "RU",
     "lat": 61.8852,
     "lon": 34.1547,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=61.8852,34.1547&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=61.8852,34.1547&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ANM",
@@ -1572,7 +1572,7 @@
     "country": "MG",
     "lat": -14.9994,
     "lon": 50.3202,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-14.9994,50.3202&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-14.9994,50.3202&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ARA",
@@ -1581,7 +1581,7 @@
     "country": "US",
     "lat": 30.03776,
     "lon": -91.8839,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=30.03776,-91.8839&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=30.03776,-91.8839&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "VIL",
@@ -1590,7 +1590,7 @@
     "country": "EH",
     "lat": 23.7183,
     "lon": -15.932,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=23.7183,-15.932&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=23.7183,-15.932&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "LAS",
@@ -1599,7 +1599,7 @@
     "country": "US",
     "lat": 36.08004,
     "lon": -115.15223,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=36.08004,-115.15223&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=36.08004,-115.15223&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "TRA",
@@ -1608,7 +1608,7 @@
     "country": "JP",
     "lat": 24.6539,
     "lon": 124.675,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=24.6539,124.675&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=24.6539,124.675&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "IDA",
@@ -1617,7 +1617,7 @@
     "country": "US",
     "lat": 43.51367,
     "lon": -112.07082,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=43.51367,-112.07082&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=43.51367,-112.07082&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "SDE",
@@ -1626,7 +1626,7 @@
     "country": "AR",
     "lat": -27.76556,
     "lon": -64.31,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-27.76556,-64.31&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-27.76556,-64.31&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "SDE",
@@ -1635,7 +1635,7 @@
     "country": "AR",
     "lat": -27.76556,
     "lon": -64.31,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-27.76556,-64.31&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-27.76556,-64.31&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "FRA",
@@ -1644,7 +1644,7 @@
     "country": "DE",
     "lat": 50.0264,
     "lon": 8.54313,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=50.0264,8.54313&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=50.0264,8.54313&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "NCI",
@@ -1653,7 +1653,7 @@
     "country": "CO",
     "lat": 8.45,
     "lon": -76.7833,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=8.45,-76.7833&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=8.45,-76.7833&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "AIR",
@@ -1662,7 +1662,7 @@
     "country": "BR",
     "lat": -10.1855,
     "lon": -59.45783,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-10.1855,-59.45783&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-10.1855,-59.45783&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ANO",
@@ -1671,7 +1671,7 @@
     "country": "MZ",
     "lat": -16.18187,
     "lon": 39.94522,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-16.18187,39.94522&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-16.18187,39.94522&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "GUA",
@@ -1680,7 +1680,7 @@
     "country": "GT",
     "lat": 14.5833,
     "lon": -90.5275,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=14.5833,-90.5275&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=14.5833,-90.5275&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "TEM",
@@ -1689,7 +1689,7 @@
     "country": "AU",
     "lat": -34.4214,
     "lon": 147.51199,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-34.4214,147.51199&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-34.4214,147.51199&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ALA",
@@ -1698,7 +1698,7 @@
     "country": "KZ",
     "lat": 43.3521,
     "lon": 77.0405,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=43.3521,77.0405&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=43.3521,77.0405&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "YCU",
@@ -1707,7 +1707,7 @@
     "country": "CN",
     "lat": 35.11639,
     "lon": 111.03139,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=35.11639,111.03139&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=35.11639,111.03139&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "AND",
@@ -1716,7 +1716,7 @@
     "country": "US",
     "lat": 34.49458,
     "lon": -82.70939,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=34.49458,-82.70939&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=34.49458,-82.70939&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "OAM",
@@ -1725,7 +1725,7 @@
     "country": "NZ",
     "lat": -44.97,
     "lon": 171.082,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-44.97,171.082&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-44.97,171.082&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "AIN",
@@ -1734,7 +1734,7 @@
     "country": "US",
     "lat": 70.638,
     "lon": -159.99475,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=70.638,-159.99475&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=70.638,-159.99475&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "AEL",
@@ -1743,7 +1743,7 @@
     "country": "US",
     "lat": 43.68131,
     "lon": -93.36815,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=43.68131,-93.36815&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=43.68131,-93.36815&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "TRA",
@@ -1752,7 +1752,7 @@
     "country": "JP",
     "lat": 24.6539,
     "lon": 124.675,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=24.6539,124.675&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=24.6539,124.675&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "NSI",
@@ -1761,7 +1761,7 @@
     "country": "CM",
     "lat": 3.72256,
     "lon": 11.5533,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=3.72256,11.5533&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=3.72256,11.5533&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "TOE",
@@ -1770,7 +1770,7 @@
     "country": "TN",
     "lat": 33.9397,
     "lon": 8.11056,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=33.9397,8.11056&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=33.9397,8.11056&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "NLA",
@@ -1779,7 +1779,7 @@
     "country": "ZM",
     "lat": -12.9981,
     "lon": 28.6649,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-12.9981,28.6649&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-12.9981,28.6649&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "HOR",
@@ -1788,7 +1788,7 @@
     "country": "PT",
     "lat": 38.5199,
     "lon": -28.7159,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=38.5199,-28.7159&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=38.5199,-28.7159&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "AMA",
@@ -1797,7 +1797,7 @@
     "country": "US",
     "lat": 35.21936,
     "lon": -101.70592,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=35.21936,-101.70592&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=35.21936,-101.70592&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "SIN",
@@ -1806,7 +1806,7 @@
     "country": "SG",
     "lat": 1.35019,
     "lon": 103.994,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=1.35019,103.994&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=1.35019,103.994&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "CIE",
@@ -1815,7 +1815,7 @@
     "country": "AU",
     "lat": -33.3667,
     "lon": 116.217,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-33.3667,116.217&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-33.3667,116.217&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "RTA",
@@ -1824,7 +1824,7 @@
     "country": "FJ",
     "lat": -12.4825,
     "lon": 177.071,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-12.4825,177.071&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-12.4825,177.071&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "SUB",
@@ -1833,7 +1833,7 @@
     "country": "ID",
     "lat": -7.37983,
     "lon": 112.787,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-7.37983,112.787&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-7.37983,112.787&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ITA",
@@ -1842,7 +1842,7 @@
     "country": "BR",
     "lat": -3.12726,
     "lon": -58.4812,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-3.12726,-58.4812&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-3.12726,-58.4812&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "MEN",
@@ -1851,7 +1851,7 @@
     "country": "FR",
     "lat": 44.5021,
     "lon": 3.53282,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=44.5021,3.53282&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=44.5021,3.53282&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "TEE",
@@ -1860,7 +1860,7 @@
     "country": "DZ",
     "lat": 35.4316,
     "lon": 8.12072,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=35.4316,8.12072&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=35.4316,8.12072&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "LAL",
@@ -1869,7 +1869,7 @@
     "country": "US",
     "lat": 27.98764,
     "lon": -82.019,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=27.98764,-82.019&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=27.98764,-82.019&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "MAA",
@@ -1878,7 +1878,7 @@
     "country": "IN",
     "lat": 12.99001,
     "lon": 80.1693,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=12.99001,80.1693&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=12.99001,80.1693&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "SCI",
@@ -1887,7 +1887,7 @@
     "country": "VE",
     "lat": 7.80132,
     "lon": -72.2029,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=7.80132,-72.2029&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=7.80132,-72.2029&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "END",
@@ -1896,7 +1896,7 @@
     "country": "US",
     "lat": 36.33981,
     "lon": -97.91724,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=36.33981,-97.91724&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=36.33981,-97.91724&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "EEN",
@@ -1905,7 +1905,7 @@
     "country": "US",
     "lat": 42.89839,
     "lon": -72.27078,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=42.89839,-72.27078&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=42.89839,-72.27078&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "TRE",
@@ -1914,7 +1914,7 @@
     "country": "GB",
     "lat": 56.4992,
     "lon": -6.86917,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=56.4992,-6.86917&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=56.4992,-6.86917&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "LOS",
@@ -1923,7 +1923,7 @@
     "country": "NG",
     "lat": 6.57737,
     "lon": 3.32116,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=6.57737,3.32116&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=6.57737,3.32116&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "CIR",
@@ -1932,7 +1932,7 @@
     "country": "US",
     "lat": 37.06414,
     "lon": -89.21953,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=37.06414,-89.21953&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=37.06414,-89.21953&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ROS",
@@ -1941,7 +1941,7 @@
     "country": "AR",
     "lat": -32.9036,
     "lon": -60.785,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-32.9036,-60.785&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-32.9036,-60.785&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "DES",
@@ -1950,7 +1950,7 @@
     "country": "SC",
     "lat": -5.6967,
     "lon": 53.6558,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-5.6967,53.6558&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-5.6967,53.6558&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "DED",
@@ -1959,7 +1959,7 @@
     "country": "IN",
     "lat": 30.1897,
     "lon": 78.1803,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=30.1897,78.1803&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=30.1897,78.1803&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "OND",
@@ -1968,7 +1968,7 @@
     "country": "NA",
     "lat": -17.8782,
     "lon": 15.9526,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-17.8782,15.9526&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-17.8782,15.9526&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "EIN",
@@ -1977,7 +1977,7 @@
     "country": "NL",
     "lat": 51.4501,
     "lon": 5.37453,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=51.4501,5.37453&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=51.4501,5.37453&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "SPE",
@@ -1986,7 +1986,7 @@
     "country": "MY",
     "lat": 4.733,
     "lon": 116.467,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=4.733,116.467&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=4.733,116.467&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "CCI",
@@ -1995,7 +1995,7 @@
     "country": "BR",
     "lat": -27.1806,
     "lon": -52.0527,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-27.1806,-52.0527&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-27.1806,-52.0527&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ONA",
@@ -2004,7 +2004,7 @@
     "country": "US",
     "lat": 44.07961,
     "lon": -91.71163,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=44.07961,-91.71163&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=44.07961,-91.71163&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "LOS",
@@ -2013,7 +2013,7 @@
     "country": "NG",
     "lat": 6.57737,
     "lon": 3.32116,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=6.57737,3.32116&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=6.57737,3.32116&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "SIM",
@@ -2022,7 +2022,7 @@
     "country": "PG",
     "lat": -5.27861,
     "lon": 144.54472,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-5.27861,144.54472&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-5.27861,144.54472&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "BOL",
@@ -2031,7 +2031,7 @@
     "country": "GB",
     "lat": 55.0603,
     "lon": -7.02028,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=55.0603,-7.02028&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=55.0603,-7.02028&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "OSO",
@@ -2040,7 +2040,7 @@
     "country": "AU",
     "lat": -22.0817,
     "lon": 140.55499,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-22.0817,140.55499&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-22.0817,140.55499&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "CUL",
@@ -2049,7 +2049,7 @@
     "country": "MX",
     "lat": 24.7645,
     "lon": -107.475,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=24.7645,-107.475&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=24.7645,-107.475&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "TOS",
@@ -2058,7 +2058,7 @@
     "country": "NO",
     "lat": 69.6833,
     "lon": 18.9189,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=69.6833,18.9189&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=69.6833,18.9189&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "DEL",
@@ -2067,7 +2067,7 @@
     "country": "IN",
     "lat": 28.5665,
     "lon": 77.1031,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=28.5665,77.1031&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=28.5665,77.1031&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "SIS",
@@ -2076,7 +2076,7 @@
     "country": "ZA",
     "lat": -27.6486,
     "lon": 22.9993,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-27.6486,22.9993&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-27.6486,22.9993&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "TEM",
@@ -2085,7 +2085,7 @@
     "country": "AU",
     "lat": -34.4214,
     "lon": 147.51199,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-34.4214,147.51199&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-34.4214,147.51199&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ARE",
@@ -2094,7 +2094,7 @@
     "country": "US",
     "lat": 18.4509,
     "lon": -66.67545,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=18.4509,-66.67545&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=18.4509,-66.67545&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "INA",
@@ -2103,7 +2103,7 @@
     "country": "RU",
     "lat": 66.05483,
     "lon": 60.11032,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=66.05483,60.11032&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=66.05483,60.11032&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "NTE",
@@ -2112,7 +2112,7 @@
     "country": "FR",
     "lat": 47.1532,
     "lon": -1.61073,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=47.1532,-1.61073&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=47.1532,-1.61073&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "DEL",
@@ -2121,7 +2121,7 @@
     "country": "IN",
     "lat": 28.5665,
     "lon": 77.1031,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=28.5665,77.1031&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=28.5665,77.1031&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "CUA",
@@ -2130,7 +2130,7 @@
     "country": "MX",
     "lat": 25.0538,
     "lon": -111.615,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=25.0538,-111.615&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=25.0538,-111.615&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "LSO",
@@ -2139,7 +2139,7 @@
     "country": "FR",
     "lat": 46.4769,
     "lon": -1.72278,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=46.4769,-1.72278&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=46.4769,-1.72278&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "MOS",
@@ -2148,7 +2148,7 @@
     "country": "US",
     "lat": 64.69818,
     "lon": -162.0573,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=64.69818,-162.0573&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=64.69818,-162.0573&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ALF",
@@ -2157,7 +2157,7 @@
     "country": "NO",
     "lat": 69.9761,
     "lon": 23.3717,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=69.9761,23.3717&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=69.9761,23.3717&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "AYO",
@@ -2166,7 +2166,7 @@
     "country": "PY",
     "lat": -27.37,
     "lon": -56.85,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-27.37,-56.85&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-27.37,-56.85&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "MEG",
@@ -2175,7 +2175,7 @@
     "country": "AO",
     "lat": -9.52509,
     "lon": 16.3124,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-9.52509,16.3124&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-9.52509,16.3124&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "AYT",
@@ -2184,7 +2184,7 @@
     "country": "TR",
     "lat": 36.8987,
     "lon": 30.8005,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=36.8987,30.8005&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=36.8987,30.8005&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ODO",
@@ -2193,7 +2193,7 @@
     "country": "RU",
     "lat": 57.8661,
     "lon": 114.243,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=57.8661,114.243&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=57.8661,114.243&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "CUA",
@@ -2202,7 +2202,7 @@
     "country": "MX",
     "lat": 25.0538,
     "lon": -111.615,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=25.0538,-111.615&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=25.0538,-111.615&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "NTO",
@@ -2211,7 +2211,7 @@
     "country": "CV",
     "lat": 17.2028,
     "lon": -25.0906,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=17.2028,-25.0906&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=17.2028,-25.0906&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "AJU",
@@ -2220,7 +2220,7 @@
     "country": "BR",
     "lat": -10.984,
     "lon": -37.0703,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-10.984,-37.0703&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-10.984,-37.0703&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "STA",
@@ -2229,7 +2229,7 @@
     "country": "DK",
     "lat": 55.9901,
     "lon": 8.35391,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=55.9901,8.35391&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=55.9901,8.35391&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "LOS",
@@ -2238,7 +2238,7 @@
     "country": "NG",
     "lat": 6.57737,
     "lon": 3.32116,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=6.57737,3.32116&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=6.57737,3.32116&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "LIM",
@@ -2247,7 +2247,7 @@
     "country": "PE",
     "lat": -12.0219,
     "lon": -77.1143,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-12.0219,-77.1143&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-12.0219,-77.1143&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ITE",
@@ -2256,7 +2256,7 @@
     "country": "BR",
     "lat": -13.73222,
     "lon": -39.14167,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-13.73222,-39.14167&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-13.73222,-39.14167&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "SDE",
@@ -2265,7 +2265,7 @@
     "country": "AR",
     "lat": -27.76556,
     "lon": -64.31,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-27.76556,-64.31&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-27.76556,-64.31&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "LCI",
@@ -2274,7 +2274,7 @@
     "country": "US",
     "lat": 43.57304,
     "lon": -71.41784,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=43.57304,-71.41784&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=43.57304,-71.41784&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ELO",
@@ -2283,7 +2283,7 @@
     "country": "AR",
     "lat": -26.3975,
     "lon": -54.5747,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-26.3975,-54.5747&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-26.3975,-54.5747&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ELO",
@@ -2292,7 +2292,7 @@
     "country": "AR",
     "lat": -26.3975,
     "lon": -54.5747,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-26.3975,-54.5747&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-26.3975,-54.5747&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "JOE",
@@ -2301,7 +2301,7 @@
     "country": "FI",
     "lat": 62.6629,
     "lon": 29.6075,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=62.6629,29.6075&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=62.6629,29.6075&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "NTO",
@@ -2310,7 +2310,7 @@
     "country": "CV",
     "lat": 17.2028,
     "lon": -25.0906,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=17.2028,-25.0906&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=17.2028,-25.0906&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "NCE",
@@ -2319,7 +2319,7 @@
     "country": "FR",
     "lat": 43.6584,
     "lon": 7.21587,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=43.6584,7.21587&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=43.6584,7.21587&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "SMI",
@@ -2328,7 +2328,7 @@
     "country": "GR",
     "lat": 37.69,
     "lon": 26.9117,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=37.69,26.9117&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=37.69,26.9117&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "RAH",
@@ -2337,7 +2337,7 @@
     "country": "SA",
     "lat": 29.6264,
     "lon": 43.4906,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=29.6264,43.4906&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=29.6264,43.4906&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "URA",
@@ -2346,7 +2346,7 @@
     "country": "KZ",
     "lat": 51.1508,
     "lon": 51.5431,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=51.1508,51.5431&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=51.1508,51.5431&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "CAN",
@@ -2355,7 +2355,7 @@
     "country": "CN",
     "lat": 23.3924,
     "lon": 113.299,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=23.3924,113.299&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=23.3924,113.299&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ADO",
@@ -2364,7 +2364,7 @@
     "country": "AU",
     "lat": -30.4383,
     "lon": 137.13699,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-30.4383,137.13699&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-30.4383,137.13699&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "RET",
@@ -2373,7 +2373,7 @@
     "country": "NO",
     "lat": 67.5278,
     "lon": 12.1033,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=67.5278,12.1033&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=67.5278,12.1033&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "AZO",
@@ -2382,7 +2382,7 @@
     "country": "US",
     "lat": 42.23439,
     "lon": -85.55156,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=42.23439,-85.55156&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=42.23439,-85.55156&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "SDE",
@@ -2391,7 +2391,7 @@
     "country": "AR",
     "lat": -27.76556,
     "lon": -64.31,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-27.76556,-64.31&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-27.76556,-64.31&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "CUL",
@@ -2400,7 +2400,7 @@
     "country": "MX",
     "lat": 24.7645,
     "lon": -107.475,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=24.7645,-107.475&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=24.7645,-107.475&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "TIV",
@@ -2409,7 +2409,7 @@
     "country": "ME",
     "lat": 42.4047,
     "lon": 18.7233,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=42.4047,18.7233&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=42.4047,18.7233&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "OSZ",
@@ -2418,7 +2418,7 @@
     "country": "PL",
     "lat": 54.0425,
     "lon": 16.2656,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=54.0425,16.2656&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=54.0425,16.2656&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "URC",
@@ -2427,7 +2427,7 @@
     "country": "CN",
     "lat": 43.9071,
     "lon": 87.4742,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=43.9071,87.4742&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=43.9071,87.4742&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "IDO",
@@ -2436,7 +2436,7 @@
     "country": "BR",
     "lat": -11.5723,
     "lon": -50.6662,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-11.5723,-50.6662&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-11.5723,-50.6662&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "SCU",
@@ -2445,7 +2445,7 @@
     "country": "CU",
     "lat": 19.9698,
     "lon": -75.8354,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=19.9698,-75.8354&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=19.9698,-75.8354&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ALU",
@@ -2454,7 +2454,7 @@
     "country": "SO",
     "lat": 11.9582,
     "lon": 50.748,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=11.9582,50.748&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=11.9582,50.748&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "NMA",
@@ -2463,7 +2463,7 @@
     "country": "UZ",
     "lat": 40.9846,
     "lon": 71.5567,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=40.9846,71.5567&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=40.9846,71.5567&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "NTO",
@@ -2472,7 +2472,7 @@
     "country": "CV",
     "lat": 17.2028,
     "lon": -25.0906,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=17.2028,-25.0906&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=17.2028,-25.0906&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "CIU",
@@ -2481,7 +2481,7 @@
     "country": "US",
     "lat": 46.25075,
     "lon": -84.47238,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=46.25075,-84.47238&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=46.25075,-84.47238&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "DAD",
@@ -2490,7 +2490,7 @@
     "country": "VN",
     "lat": 16.0439,
     "lon": 108.199,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=16.0439,108.199&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=16.0439,108.199&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ESG",
@@ -2499,7 +2499,7 @@
     "country": "PY",
     "lat": -22.05,
     "lon": -60.62,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-22.05,-60.62&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-22.05,-60.62&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "RIS",
@@ -2508,7 +2508,7 @@
     "country": "JP",
     "lat": 45.242,
     "lon": 141.186,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=45.242,141.186&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=45.242,141.186&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ESC",
@@ -2517,7 +2517,7 @@
     "country": "US",
     "lat": 45.72267,
     "lon": -87.09372,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=45.72267,-87.09372&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=45.72267,-87.09372&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ORD",
@@ -2526,7 +2526,7 @@
     "country": "US",
     "lat": 41.97694,
     "lon": -87.90815,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=41.97694,-87.90815&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=41.97694,-87.90815&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ILL",
@@ -2535,7 +2535,7 @@
     "country": "US",
     "lat": 45.11703,
     "lon": -95.12933,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=45.11703,-95.12933&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=45.11703,-95.12933&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ERA",
@@ -2544,7 +2544,7 @@
     "country": "SO",
     "lat": 10.64205,
     "lon": 47.38798,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=10.64205,47.38798&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=10.64205,47.38798&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "SAL",
@@ -2553,7 +2553,7 @@
     "country": "SV",
     "lat": 13.4409,
     "lon": -89.0557,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=13.4409,-89.0557&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=13.4409,-89.0557&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "TAS",
@@ -2562,7 +2562,7 @@
     "country": "UZ",
     "lat": 41.2579,
     "lon": 69.2812,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=41.2579,69.2812&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=41.2579,69.2812&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "BES",
@@ -2571,7 +2571,7 @@
     "country": "FR",
     "lat": 48.4479,
     "lon": -4.41854,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=48.4479,-4.41854&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=48.4479,-4.41854&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "OSD",
@@ -2580,7 +2580,7 @@
     "country": "SE",
     "lat": 63.1944,
     "lon": 14.5003,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=63.1944,14.5003&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=63.1944,14.5003&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ESO",
@@ -2589,7 +2589,7 @@
     "country": "US",
     "lat": 36.02612,
     "lon": -106.04541,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=36.02612,-106.04541&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=36.02612,-106.04541&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "LNE",
@@ -2598,7 +2598,7 @@
     "country": "VU",
     "lat": -15.8656,
     "lon": 168.172,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-15.8656,168.172&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-15.8656,168.172&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "VAD",
@@ -2607,7 +2607,7 @@
     "country": "US",
     "lat": 30.9687,
     "lon": -83.19296,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=30.9687,-83.19296&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=30.9687,-83.19296&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "OPO",
@@ -2616,7 +2616,7 @@
     "country": "PT",
     "lat": 41.2481,
     "lon": -8.68139,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=41.2481,-8.68139&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=41.2481,-8.68139&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "RLO",
@@ -2625,7 +2625,7 @@
     "country": "AR",
     "lat": -32.3847,
     "lon": -65.1865,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-32.3847,-65.1865&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-32.3847,-65.1865&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "SPI",
@@ -2634,7 +2634,7 @@
     "country": "US",
     "lat": 39.84461,
     "lon": -89.67755,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=39.84461,-89.67755&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=39.84461,-89.67755&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "COS",
@@ -2643,7 +2643,7 @@
     "country": "US",
     "lat": 38.80582,
     "lon": -104.70078,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=38.80582,-104.70078&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=38.80582,-104.70078&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "YPA",
@@ -2652,7 +2652,7 @@
     "country": "CA",
     "lat": 53.2142,
     "lon": -105.673,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=53.2142,-105.673&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=53.2142,-105.673&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "RPA",
@@ -2661,7 +2661,7 @@
     "country": "NP",
     "lat": 28.267,
     "lon": 82.767,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=28.267,82.767&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=28.267,82.767&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "DEA",
@@ -2670,7 +2670,7 @@
     "country": "PK",
     "lat": 29.961,
     "lon": 70.4859,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=29.961,70.4859&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=29.961,70.4859&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ENS",
@@ -2679,7 +2679,7 @@
     "country": "NL",
     "lat": 52.27,
     "lon": 6.87417,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=52.27,6.87417&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=52.27,6.87417&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "USI",
@@ -2688,7 +2688,7 @@
     "country": "GY",
     "lat": 8.2,
     "lon": -59.7833,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=8.2,-59.7833&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=8.2,-59.7833&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "TIO",
@@ -2697,7 +2697,7 @@
     "country": "MM",
     "lat": 21.7,
     "lon": 94.1,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=21.7,94.1&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=21.7,94.1&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "SIN",
@@ -2706,7 +2706,7 @@
     "country": "SG",
     "lat": 1.35019,
     "lon": 103.994,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=1.35019,103.994&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=1.35019,103.994&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "BOS",
@@ -2715,7 +2715,7 @@
     "country": "US",
     "lat": 42.36294,
     "lon": -71.00639,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=42.36294,-71.00639&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=42.36294,-71.00639&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "TEZ",
@@ -2724,7 +2724,7 @@
     "country": "IN",
     "lat": 26.7091,
     "lon": 92.7847,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=26.7091,92.7847&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=26.7091,92.7847&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ONO",
@@ -2733,7 +2733,7 @@
     "country": "US",
     "lat": 44.01936,
     "lon": -117.01303,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=44.01936,-117.01303&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=44.01936,-117.01303&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "CTU",
@@ -2742,7 +2742,7 @@
     "country": "CN",
     "lat": 30.5785,
     "lon": 103.947,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=30.5785,103.947&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=30.5785,103.947&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "RNO",
@@ -2751,7 +2751,7 @@
     "country": "US",
     "lat": 39.49911,
     "lon": -119.76811,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=39.49911,-119.76811&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=39.49911,-119.76811&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "SOB",
@@ -2760,7 +2760,7 @@
     "country": "HU",
     "lat": 46.6864,
     "lon": 17.1591,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=46.6864,17.1591&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=46.6864,17.1591&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "REL",
@@ -2769,7 +2769,7 @@
     "country": "AR",
     "lat": -43.2105,
     "lon": -65.2703,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-43.2105,-65.2703&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-43.2105,-65.2703&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ACE",
@@ -2778,7 +2778,7 @@
     "country": "ES",
     "lat": 28.9455,
     "lon": -13.6052,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=28.9455,-13.6052&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=28.9455,-13.6052&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "LES",
@@ -2787,7 +2787,7 @@
     "country": "LS",
     "lat": -29.7829,
     "lon": 28.3167,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-29.7829,28.3167&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-29.7829,28.3167&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "TIA",
@@ -2796,7 +2796,7 @@
     "country": "AL",
     "lat": 41.4147,
     "lon": 19.7206,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=41.4147,19.7206&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=41.4147,19.7206&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "LES",
@@ -2805,7 +2805,7 @@
     "country": "LS",
     "lat": -29.7829,
     "lon": 28.3167,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-29.7829,28.3167&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-29.7829,28.3167&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "PAD",
@@ -2814,7 +2814,7 @@
     "country": "DE",
     "lat": 51.6141,
     "lon": 8.61632,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=51.6141,8.61632&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=51.6141,8.61632&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ADE",
@@ -2823,7 +2823,7 @@
     "country": "YE",
     "lat": 12.8295,
     "lon": 45.0288,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=12.8295,45.0288&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=12.8295,45.0288&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "LOC",
@@ -2832,7 +2832,7 @@
     "country": "AU",
     "lat": -33.5442,
     "lon": 135.69299,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-33.5442,135.69299&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=-33.5442,135.69299&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "ASO",
@@ -2841,7 +2841,7 @@
     "country": "ET",
     "lat": 10.0185,
     "lon": 34.5863,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=10.0185,34.5863&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=10.0185,34.5863&zoom=13&size=600x400&key={API_KEY}"
   },
   {
     "code": "MOU",
@@ -2850,6 +2850,6 @@
     "country": "US",
     "lat": 62.09478,
     "lon": -163.68286,
-    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=62.09478,-163.68286&zoom=13&size=600x400&key=AIzaSyBcqBxfCiu2-wcC-GG4JtYsnSD4uOhdcNk"
+    "static_map_url": "https://maps.googleapis.com/maps/api/staticmap?center=62.09478,-163.68286&zoom=13&size=600x400&key={API_KEY}"
   }
 ]
