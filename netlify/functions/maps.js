@@ -41,20 +41,15 @@ exports.handler = async (event, context) => {
     const imageBuffer = await response.arrayBuffer();
     
     return {
-      statusCode: 200,
-      headers: {
-        'Content-Type': 'image/png',
-        'Cache-Control': 'public, max-age=86400', // Cache for 24 hours
-        'Access-Control-Allow-Origin': '*'
-      },
-      body: Buffer.from(imageBuffer).toString('base64'),
-      isBase64Encoded: true
-    };
-  } catch (error) {
-    console.error('Maps function error:', error);
-    return {
-      statusCode: 500,
-      body: JSON.stringify({ error: 'Failed to fetch map image' })
-    };
-  }
+  statusCode: 200,
+  headers: {
+    'Content-Type': 'image/png',
+    'Cache-Control': 'public, max-age=86400',
+    'Access-Control-Allow-Origin': '*',
+    'Access-Control-Allow-Headers': 'Content-Type',
+    'Access-Control-Allow-Methods': 'GET, OPTIONS',
+    'X-Frame-Options': 'SAMEORIGIN'
+  },
+  body: Buffer.from(imageBuffer).toString('base64'),
+  isBase64Encoded: true
 };
