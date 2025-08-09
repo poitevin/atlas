@@ -1,182 +1,122 @@
 [
   {
     "line": "0",
-    "itinerary": "ATL-ASO-CUL-TOD-ELA-INM-ENS-ARU-INA",
-    "length": "Esta línea tiene 110,330 kilómetros de longitud",
-    "carbon-footprint": "Esta línea emite aproximadamente 4,910,236.6 kilogramos de CO<sub><sub>2</sub></sub>"
+    "itinerary": "ATL-ASO-CUL-TOD-ELA-INM-ENS-ARU-INA"
   },
   {
     "line": "1",
-    "itinerary": "ELA-LBA-INU-NDA-ELC-AUC-EDE-LSI-LEN-CIO",
-    "length": "Esta línea tiene 71,278 kilómetros de longitud",
-    "carbon-footprint": "Esta línea emite aproximadamente 3,172,227.4 kilogramos de CO<sub>2</sub>"
+    "itinerary": "ELA-LBA-INU-NDA-ELC-AUC-EDE-LSI-LEN-CIO"
   },
   {
     "line": "2",
-    "itinerary": "MIE-NTR-ASD-ESD-ELA-SCO-PAS-MUS-ITA-NLA-SAL-OND-RAS",
-    "length": "Esta línea tiene 94,880 kilómetros de longitud",
-    "carbon-footprint": "Esta línea emite aproximadamente 4,222,634.4 kilogramos de CO<sub>2</sub>"
+    "itinerary": "MIE-NTR-ASD-ESD-ELA-SCO-PAS-MUS-ITA-NLA-SAL-OND-RAS"
   },
   {
     "line": "3",
-    "itinerary": "DES-PIE-RTA-STI-TUB-EAN-TES-ELM-ILA-GRO-DEL-DIA",
-    "length": "Esta línea tiene 118,526 kilómetros de longitud",
-    "carbon-footprint": "Esta línea emite aproximadamente 5,274,999.6 kilogramos de CO<sub>2</sub>"
+    "itinerary": "DES-PIE-RTA-STI-TUB-EAN-TES-ELM-ILA-GRO-DEL-DIA"
   },
   {
     "line": "4",
-    "itinerary": "ENS-USA-LAS-AGU-DAS-UNA-ALE-GRI-ATE-NUE",
-    "length": "Esta línea tiene 47,158 kilómetros de longitud",
-    "carbon-footprint": "Esta línea emite aproximadamente 2,098,766.8 kilogramos de CO<sub>2</sub>"
+    "itinerary": "ENS-USA-LAS-AGU-DAS-UNA-ALE-GRI-ATE-NUE"
   },
   {
     "line": "5",
-    "itinerary": "COM-OUN-MUR-MUL-LOE-NNU-BES",
-    "length": "Esta línea tiene 69,349 kilómetros de longitud",
-    "carbon-footprint": "Esta línea emite aproximadamente 3,086,377.2 kilogramos de CO<sub>2</sub>"
+    "itinerary": "COM-OUN-MUR-MUL-LOE-NNU-BES"
   },
   {
     "line": "6",
-    "itinerary": "SAL-EUN-HOM-BRE-ENH-ARA-POS-TOD-AVI-ASO-MNO-LIE-NTO",
-    "length": "Esta línea tiene 105,346 kilómetros de longitud",
-    "carbon-footprint": "Esta línea emite aproximadamente 4,688,423.7 kilogramos de CO<sub>2</sub>"
+    "itinerary": "SAL-EUN-HOM-BRE-ENH-ARA-POS-TOD-AVI-ASO-MNO-LIE-NTO"
   },
   {
     "line": "7",
-    "itinerary": "ARE-GAR-FLO-RES-YTR-APE-ARE-LPA-TIO",
-    "length": "Esta línea tiene 72,404 kilómetros de longitud",
-    "carbon-footprint": "Esta línea emite aproximadamente 3,222,340.0 kilogramos de CO<sub>2</sub>"
+    "itinerary": "ARE-GAR-FLO-RES-YTR-APE-ARE-LPA-TIO"
   },
   {
     "line": "8",
-    "itinerary": "SUM-IRA-DAA-TRA-IDA-COM-OLO-EST-ALA-MIA",
-    "length": "Esta línea tiene 113,091 kilómetros de longitud",
-    "carbon-footprint": "Esta línea emite aproximadamente 5,033,115.0 kilogramos de CO<sub>2</sub>"
+    "itinerary": "SUM-IRA-DAA-TRA-IDA-COM-OLO-EST-ALA-MIA"
   },
   {
     "line": "9",
-    "itinerary": "POR-COS-ASM-ARG-INA-LES-RAI-CES-TAL-LOS-YHO-JAS",
-    "length": "Esta línea tiene 53,237 kilómetros de longitud",
-    "carbon-footprint": "Esta línea emite aproximadamente 2,369,312.7 kilogramos de CO<sub>2</sub>"
+    "itinerary": "POR-COS-ASM-ARG-INA-LES-RAI-CES-TAL-LOS-YHO-JAS"
   },
   {
     "line": "10",
-    "itinerary": "YSU-MEM-ORI-ADE-LIN-EAN-DOE-LBO-RDE",
-    "length": "Esta línea tiene 60,441 kilómetros de longitud",
-    "carbon-footprint": "Esta línea emite aproximadamente 2,689,926.7 kilogramos de CO<sub>2</sub>"
+    "itinerary": "YSU-MEM-ORI-ADE-LIN-EAN-DOE-LBO-RDE"
   },
   {
     "line": "11",
-    "itinerary": "DEL-MUN-DOE-NEL-POE-MAQ-UEE-LBO-SQU-EJA",
-    "length": "Esta línea tiene 68,964 kilómetros de longitud",
-    "carbon-footprint": "Esta línea emite aproximadamente 3,069,242.8 kilogramos de CO<sub>2</sub>"
+    "itinerary": "DEL-MUN-DOE-NEL-POE-MAQ-UEE-LBO-SQU-EJA"
   },
   {
     "line": "12",
-    "itinerary": "POC-ASH-ORA-SMA-STA-RDE-ENE-LBU-LLI-CIO",
-    "length": "Esta línea tiene 57,638 kilómetros de longitud",
-    "carbon-footprint": "Esta línea emite aproximadamente 2,565,179.2 kilogramos de CO<sub>2</sub>"
+    "itinerary": "POC-ASH-ORA-SMA-STA-RDE-ENE-LBU-LLI-CIO"
   },
   {
     "line": "13",
-    "itinerary": "DEL-TRA-NSI-TOQ-UEN-OSE-NER-VAA-TAN-TOS",
-    "length": "Esta línea tiene 92,496 kilómetros de longitud",
-    "carbon-footprint": "Esta línea emite aproximadamente 4,116,534.5 kilogramos de CO<sub>2</sub>"
+    "itinerary": "DEL-TRA-NSI-TOQ-UEN-OSE-NER-VAA-TAN-TOS"
   },
   {
     "line": "14",
-    "itinerary": "LOS-MER-CAD-OSS-ELL-ENA-NLA-MAS-AAT-OLO-NDR-ADA",
-    "length": "Esta línea tiene 96,734 kilómetros de longitud",
-    "carbon-footprint": "Esta línea emite aproximadamente 4,305,146.7 kilogramos de CO<sub>2</sub>"
+    "itinerary": "LOS-MER-CAD-OSS-ELL-ENA-NLA-MAS-AAT-OLO-NDR-ADA"
   },
   {
     "line": "15",
-    "itinerary": "DES-LIZ-AND-OSE-ENF-ILA-POR-BRI-LLA-NTE-SPA-SIL-LOS",
-    "length": "Esta línea tiene 108,461 kilómetros de longitud",
-    "carbon-footprint": "Esta línea emite aproximadamente 4,827,056.8 kilogramos de CO<sub>2</sub>"
+    "itinerary": "DES-LIZ-AND-OSE-ENF-ILA-POR-BRI-LLA-NTE-SPA-SIL-LOS"
   },
   {
     "line": "16",
-    "itinerary": "DON-DEM-ANO-SSO-PES-ANM-ARA-VIL-LAS",
-    "length": "Esta línea tiene 77,689 kilómetros de longitud",
-    "carbon-footprint": "Esta línea emite aproximadamente 3,457,548.9 kilogramos de CO<sub>2</sub>"
+    "itinerary": "DON-DEM-ANO-SSO-PES-ANM-ARA-VIL-LAS"
   },
   {
     "line": "17",
-    "itinerary": "TRA-IDA-SDE-SDE-FRA-NCI-AIR-ANO-GUA-TEM-ALA",
-    "length": "Esta línea tiene 93,218 kilómetros de longitud",
-    "carbon-footprint": "Esta línea emite aproximadamente 4,148,667.1 kilogramos de CO<sub>2</sub>"
+    "itinerary": "TRA-IDA-SDE-SDE-FRA-NCI-AIR-ANO-GUA-TEM-ALA"
   },
   {
     "line": "18",
-    "itinerary": "YCU-AND-OAM-AIN-AEL-TRA-NSI-TOE-NLA-HOR-AMA-SIN-CIE-RTA",
-    "length": "Esta línea tiene 116,678 kilómetros de longitud",
-    "carbon-footprint": "Esta línea emite aproximadamente 5,192,754.4 kilogramos de CO<sub>2</sub>"
+    "itinerary": "YCU-AND-OAM-AIN-AEL-TRA-NSI-TOE-NLA-HOR-AMA-SIN-CIE-RTA"
   },
   {
     "line": "19",
-    "itinerary": "SUB-ITA-MEN-TEE-LAL-MAA-SCI-END-EEN-TRE-LOS-CIR-ROS",
-    "length": "Esta línea tiene 102,076 kilómetros de longitud",
-    "carbon-footprint": "Esta línea emite aproximadamente 4,542,892.4 kilogramos de CO<sub>2</sub>"
+    "itinerary": "SUB-ITA-MEN-TEE-LAL-MAA-SCI-END-EEN-TRE-LOS-CIR-ROS"
   },
   {
     "line": "20",
-    "itinerary": "DES-DED-OND-EIN-SPE-CCI-ONA-LOS-SIM-BOL-OSO-CUL-TOS",
-    "length": "Esta línea tiene 135,085 kilómetros de longitud",
-    "carbon-footprint": "Esta línea emite aproximadamente 6,011,957.9 kilogramos de CO<sub>2</sub>"
+    "itinerary": "DES-DED-OND-EIN-SPE-CCI-ONA-LOS-SIM-BOL-OSO-CUL-TOS"
   },
   {
     "line": "21",
-    "itinerary": "DEL-SIS-TEM-ARE-INA-NTE-DEL-CUA-LSO-MOS",
-    "length": "Esta línea tiene 87,232 kilómetros de longitud",
-    "carbon-footprint": "Esta línea emite aproximadamente 3,882,260.2 kilogramos de CO<sub>2</sub>"
+    "itinerary": "DEL-SIS-TEM-ARE-INA-NTE-DEL-CUA-LSO-MOS"
   },
   {
     "line": "22",
-    "itinerary": "ALF-AYO-MEG-AYT-ODO-CUA-NTO-AJU-STA",
-    "length": "Esta línea tiene 62,658 kilómetros de longitud",
-    "carbon-footprint": "Esta línea emite aproximadamente 2,788,594.3 kilogramos de CO<sub>2</sub>"
+    "itinerary": "ALF-AYO-MEG-AYT-ODO-CUA-NTO-AJU-STA"
   },
   {
     "line": "23",
-    "itinerary": "LOS-LIM-ITE-SDE-LCI-ELO",
-    "length": "Esta línea tiene 32,215 kilómetros de longitud",
-    "carbon-footprint": "Esta línea emite aproximadamente 1,433,728.6 kilogramos de CO<sub>2</sub>"
+    "itinerary": "LOS-LIM-ITE-SDE-LCI-ELO"
   },
   {
     "line": "24",
-    "itinerary": "ELO-JOE-NTO-NCE-SMI-RAH-URA-CAN-ADO",
-    "length": "Esta línea tiene 41,679 kilómetros de longitud",
-    "carbon-footprint": "Esta línea emite aproximadamente 1,854,923.9 kilogramos de CO<sub>2</sub>"
+    "itinerary": "ELO-JOE-NTO-NCE-SMI-RAH-URA-CAN-ADO"
   },
   {
     "line": "25",
-    "itinerary": "RET-AZO-SDE-CUL-TIV-OSZ-URC-IDO-SCO-MOU-NMA-NTO",
-    "length": "Esta línea tiene 84,090 kilómetros de longitud",
-    "carbon-footprint": "Esta línea emite aproximadamente 3,742,425.5 kilogramos de CO<sub>2</sub>"
+    "itinerary": "RET-AZO-SDE-CUL-TIV-OSZ-URC-IDO-SCO-MOU-NMA-NTO"
   },
   {
     "line": "26",
-    "itinerary": "CIU-DAD-ESG-RIS-ESC-ORD-ILL-ERA-SAL-TAS",
-    "length": "Esta línea tiene 99,162 kilómetros de longitud",
-    "carbon-footprint": "Esta línea emite aproximadamente 4,413,204.8 kilogramos de CO<sub>2</sub>"
+    "itinerary": "CIU-DAD-ESG-RIS-ESC-ORD-ILL-ERA-SAL-TAS"
   },
   {
     "line": "27",
-    "itinerary": "BES-OSD-ESO-LNE-VAD-OPO-RLO-SPI-COS",
-    "length": "Esta línea tiene 59,458 kilómetros de longitud",
-    "carbon-footprint": "Esta línea emite aproximadamente 2,646,178.3 kilogramos de CO<sub>2</sub>"
+    "itinerary": "BES-OSD-ESO-LNE-VAD-OPO-RLO-SPI-COS"
   },
   {
     "line": "28",
-    "itinerary": "YPA-RPA-DEA-ENS-USI-TIO-SIN-BOS-TEZ-ONO-CTU-RNO",
-    "length": "Esta línea tiene 104,251 kilómetros de longitud",
-    "carbon-footprint": "Esta línea emite aproximadamente 4,639,690.8 kilogramos de CO<sub>2</sub>"
+    "itinerary": "YPA-RPA-DEA-ENS-USI-TIO-SIN-BOS-TEZ-ONO-CTU-RNO"
   },
   {
     "line": "29",
-    "itinerary": "SOB-REL-ACE-LES-TIA-LES-PAD-ADE-LOC-ASO",
-    "length": "Esta línea tiene 83,441 kilómetros de longitud",
-    "carbon-footprint": "Esta línea emite aproximadamente 3,713,541.7 kilogramos de CO<sub>2</sub>"
+    "itinerary": "SOB-REL-ACE-LES-TIA-LES-PAD-ADE-LOC-ASO"
   }
 ]
