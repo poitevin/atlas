@@ -287,23 +287,6 @@ const App = () => {
           <span className="photographer-text">Foto de: Arturo Godoy</span>
         </div>
 
-        {/* Summary bar */}
-        <div className="summary" style={{ margin: "8px 0 12px 0", fontSize: 14 }}>
-          <strong>Distancia total:</strong> {fmt.format(Math.round(totalKm))} km ·{" "}
-          <strong>Emisiones totales:</strong> {fmt.format(Math.round(totalKgCO2e))} kg CO₂e ·{" "}
-          <strong>Aeropuertos únicos:</strong> {airportCount}
-          {Math.abs(totalKm - TARGET_TOTAL_KM) > 1 && (
-            <span style={{ color: "#b00", marginLeft: 8 }}>
-              (Faltan {fmt.format(Math.max(0, Math.round(TARGET_TOTAL_KM - totalKm)))} km para el objetivo)
-            </span>
-          )}
-          {missingCodes.length > 0 && (
-            <span style={{ color: "#b00", marginLeft: 8 }}>
-              Códigos faltantes en <code>airportData.json</code>: {missingCodes.join(", ")}
-            </span>
-          )}
-        </div>
-
         <div
           className={`content-window${
             selectedAirport ? " selected-airport"
