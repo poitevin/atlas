@@ -257,7 +257,7 @@ const App = () => {
             : ""
           }`}
         >
-          <div className="content-window">
+          <div className="content-inner">
             <div className="responsive-container">
               <div className={`monospace transition-${transitionPhase}`}>
                 {displayPoem
