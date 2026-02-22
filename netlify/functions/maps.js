@@ -10,7 +10,7 @@ exports.handler = async (event, context) => {
   }
 
   // Get parameters from the request
-  const { center, zoom, size, maptype } = event.queryStringParameters || {};
+  const { center, zoom, size, maptype, markers } = event.queryStringParameters || {};
   
   if (!center) {
     return {
@@ -28,14 +28,20 @@ exports.handler = async (event, context) => {
     key: apiKey
   });
 
-  const mapUrl = `https://maps.googleapis.com/maps/api/staticmap?${params.toString()}`;
+  // Add marker manually to avoid double-encoding the | character
+  let mapUrl = `https://maps.googleapis.com/maps/api/staticmap?${params.toString()}`;
+  if (markers) {
+    mapUrl += `&markers=${markers}`;
+  }
 
   try {
     // Fetch the image from Google Maps
     const response = await fetch(mapUrl);
     
     if (!response.ok) {
-      throw new Error(`Google Maps API error: ${response.status}`);
+      const errorText = await response.text();
+      console.error('Google Maps error:', response.status, errorText);
+      throw new Error(`Google Maps API error: ${response.status} - ${errorText}`);
     }
 
     const imageBuffer = await response.arrayBuffer();
@@ -44,7 +50,7 @@ exports.handler = async (event, context) => {
       statusCode: 200,
       headers: {
         'Content-Type': 'image/png',
-        'Cache-Control': 'public, max-age=86400',
+        'Cache-Control': 'public, max-age=86400', // Cache for 24 hours
         'Access-Control-Allow-Origin': '*'
       },
       body: Buffer.from(imageBuffer).toString('base64'),
@@ -54,7 +60,7 @@ exports.handler = async (event, context) => {
     console.error('Maps function error:', error);
     return {
       statusCode: 500,
-      body: JSON.stringify({ error: 'Failed to fetch map image' })
+      body: JSON.stringify({ error: 'Failed to fetch map image', details: error.message })
     };
   }
 };

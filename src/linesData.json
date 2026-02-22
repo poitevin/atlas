@@ -1,122 +1,182 @@
 [
   {
     "line": "0",
-    "itinerary": "ATL-ASO-CUL-TOD-ELA-INM-ENS-ARU-INA"
+    "itinerary": "ATL-ASO-SCU-ROD-ELA-INM-ENS-ARU-INA",
+    "length": "Esta línea mide 102,237 kilómetros",
+    "carbon-footprint": "Las emisiones de carbono estimadas de este itinerario son 3,174,458.8 kg CO₂"
   },
   {
     "line": "1",
-    "itinerary": "ELA-LBA-INU-NDA-ELC-AUC-EDE-LSI-LEN-CIO"
+    "itinerary": "ELA-LBA-INU-NDA-ELC-AUC-EDE-LSI-LEN-CIO",
+    "length": "Esta línea mide 71,278 kilómetros",
+    "carbon-footprint": "Las emisiones de carbono estimadas de este itinerario son 2,213,181.9 kg CO₂"
   },
   {
     "line": "2",
-    "itinerary": "MIE-NTR-ASD-ESD-ELA-SCO-PAS-MUS-ITA-NLA-SAL-OND-RAS"
+    "itinerary": "MIE-NTR-ASD-ESD-ELA-SCO-PAS-MUS-ITA-NLA-SAL-OND-RAS",
+    "length": "Esta línea mide 94,847 kilómetros",
+    "carbon-footprint": "Las emisiones de carbono estimadas de este itinerario son 2,944,999.3 kg CO₂"
   },
   {
     "line": "3",
-    "itinerary": "DES-PIE-RTA-STI-TUB-EAN-TES-ELM-ILA-GRO-DEL-DIA"
+    "itinerary": "DES-PIE-RTA-STI-TUB-EAN-TES-ELM-ILA-GRO-DEL-DIA",
+    "length": "Esta línea mide 118,526 kilómetros",
+    "carbon-footprint": "Las emisiones de carbono estimadas de este itinerario son 3,680,232.3 kg CO₂"
   },
   {
     "line": "4",
-    "itinerary": "ENS-USA-LAS-AGU-DAS-UNA-ALE-GRI-ATE-NUE"
+    "itinerary": "ENS-USA-LAS-AGU-DAS-UNA-ALE-GRI-ATE-NUE",
+    "length": "Esta línea mide 47,158 kilómetros",
+    "carbon-footprint": "Las emisiones de carbono estimadas de este itinerario son 1,464,255.9 kg CO₂"
   },
   {
     "line": "5",
-    "itinerary": "COM-OUN-MUR-MUL-LOE-NNU-BES"
+    "itinerary": "COM-OUN-MUR-MUL-LOE-NNU-BES",
+    "length": "Esta línea mide 69,349 kilómetros",
+    "carbon-footprint": "Las emisiones de carbono estimadas de este itinerario son 2,153,286.4 kg CO₂"
   },
   {
     "line": "6",
-    "itinerary": "SAL-EUN-HOM-BRE-ENH-ARA-POS-TOD-AVI-ASO-MNO-LIE-NTO"
+    "itinerary": "SAL-EUN-HOM-BRE-ENH-ARA-POS-TOD-AVI-ASO-MNO-LIE-NTO",
+    "length": "Esta línea mide 105,346 kilómetros",
+    "carbon-footprint": "Las emisiones de carbono estimadas de este itinerario son 3,270,993.3 kg CO₂"
   },
   {
     "line": "7",
-    "itinerary": "ARE-GAR-FLO-RES-YTR-APE-ARE-LPA-TIO"
+    "itinerary": "ARE-GAR-FLO-RES-YTR-APE-ARE-LPA-TIO",
+    "length": "Esta línea mide 72,404 kilómetros",
+    "carbon-footprint": "Las emisiones de carbono estimadas de este itinerario son 2,248,144.2 kg CO₂"
   },
   {
     "line": "8",
-    "itinerary": "SUM-IRA-DAA-TRA-IDA-COM-OLO-EST-ALA-MIA"
+    "itinerary": "SUM-IRA-DAA-TRA-IDA-COM-OLO-EST-ALA-MIA",
+    "length": "Esta línea mide 90,485 kilómetros",
+    "carbon-footprint": "Las emisiones de carbono estimadas de este itinerario son 2,809,559.2 kg CO₂"
   },
   {
     "line": "9",
-    "itinerary": "POR-COS-ASM-ARG-INA-LES-RAI-CES-TAL-LOS-YHO-JAS"
+    "itinerary": "POR-COS-ASM-ARG-INA-LES-RAI-CES-TAL-LOS-YHO-JAS",
+    "length": "Esta línea mide 113,091 kilómetros",
+    "carbon-footprint": "Las emisiones de carbono estimadas de este itinerario son 3,511,475.6 kg CO₂"
   },
   {
     "line": "10",
-    "itinerary": "YSU-MEM-ORI-ADE-LIN-EAN-DOE-LBO-RDE"
+    "itinerary": "YSU-MEM-ORI-ADE-LIN-EAN-DOE-LBO-RDE",
+    "length": "Esta línea mide 60,441 kilómetros",
+    "carbon-footprint": "Las emisiones de carbono estimadas de este itinerario son 1,876,693.1 kg CO₂"
   },
   {
     "line": "11",
-    "itinerary": "DEL-MUN-DOE-NEL-POE-MAQ-UEE-LBO-SQU-EJA"
+    "itinerary": "DEL-MUN-DOE-NEL-POE-MAQ-UEE-LBO-SQU-EJA",
+    "length": "Esta línea mide 68,964 kilómetros",
+    "carbon-footprint": "Las emisiones de carbono estimadas de este itinerario son 2,141,332.2 kg CO₂"
   },
   {
     "line": "12",
-    "itinerary": "POC-ASH-ORA-SMA-STA-RDE-ENE-LBU-LLI-CIO"
+    "itinerary": "POC-ASH-ORA-SMA-STA-RDE-ENE-LBU-LLI-CIO",
+    "length": "Esta línea mide 57,638 kilómetros",
+    "carbon-footprint": "Las emisiones de carbono estimadas de este itinerario son 1,789,659.9 kg CO₂"
   },
   {
     "line": "13",
-    "itinerary": "DEL-TRA-NSI-TOQ-UEN-OSE-NER-VAA-TAN-TOS"
+    "itinerary": "DEL-TRA-NSI-TOQ-UEN-OSE-NER-VAA-TAN-TOS",
+    "length": "Esta línea mide 92,496 kilómetros",
+    "carbon-footprint": "Las emisiones de carbono estimadas de este itinerario son 2,872,000.8 kg CO₂"
   },
   {
     "line": "14",
-    "itinerary": "LOS-MER-CAD-OSS-ELL-ENA-NLA-MAS-AAT-OLO-NDR-ADA"
+    "itinerary": "LOS-MER-CAD-OSS-ELL-ENA-NLA-MAS-AAT-OLO-NDR-ADA",
+    "length": "Esta línea mide 96,747 kilómetros",
+    "carbon-footprint": "Las emisiones de carbono estimadas de este itinerario son 3,003,994.3 kg CO₂"
   },
   {
     "line": "15",
-    "itinerary": "DES-LIZ-AND-OSE-ENF-ILA-POR-BRI-LLA-NTE-SPA-SIL-LOS"
+    "itinerary": "DES-LIZ-AND-OSE-ENF-ILA-POR-BRI-LLA-NTE-SPA-SIL-LOS",
+    "length": "Esta línea mide 108,461 kilómetros",
+    "carbon-footprint": "Las emisiones de carbono estimadas de este itinerario son 3,367,714.0 kg CO₂"
   },
   {
     "line": "16",
-    "itinerary": "DON-DEM-ANO-SSO-PES-ANM-ARA-VIL-LAS"
+    "itinerary": "DON-DEM-ANO-SSO-PES-ANM-ARA-VIL-LAS",
+    "length": "Esta línea mide 77,689 kilómetros",
+    "carbon-footprint": "Las emisiones de carbono estimadas de este itinerario son 2,412,243.5 kg CO₂"
   },
   {
     "line": "17",
-    "itinerary": "TRA-IDA-SDE-SDE-FRA-NCI-AIR-ANO-GUA-TEM-ALA"
+    "itinerary": "TRA-IDA-SDE-SDE-FRA-NCI-AIR-AKO-GUA-TEM-ALA",
+    "length": "Esta línea mide 78,108 kilómetros",
+    "carbon-footprint": "Las emisiones de carbono estimadas de este itinerario son 2,425,253.4 kg CO₂"
   },
   {
     "line": "18",
-    "itinerary": "YCU-AND-OAM-AIN-AEL-TRA-NSI-TOE-NLA-HOR-AMA-SIN-CIE-RTA"
+    "itinerary": "YCU-AND-OAM-AIN-AEL-TRA-NSI-TOE-NLA-HOR-AMA-SIN-CIE-RTA",
+    "length": "Esta línea mide 116,654 kilómetros",
+    "carbon-footprint": "Las emisiones de carbono estimadas de este itinerario son 3,622,106.7 kg CO₂"
   },
   {
     "line": "19",
-    "itinerary": "SUB-ITA-MEN-TEE-LAL-MAA-SCI-END-EEN-TRE-LOS-CIR-ROS"
+    "itinerary": "SUB-ITA-MEN-TEE-LAL-MAA-SCI-END-EEN-TRE-LOS-CIR-ROS",
+    "length": "Esta línea mide 102,076 kilómetros",
+    "carbon-footprint": "Las emisiones de carbono estimadas de este itinerario son 3,169,459.8 kg CO₂"
   },
   {
     "line": "20",
-    "itinerary": "DES-DED-OND-EIN-SPE-CCI-ONA-LOS-SIM-BOL-OSO-CUL-TOS"
+    "itinerary": "DES-DED-OND-EIN-SPE-CCI-ONA-LOS-SIM-BOL-OSO-CUL-TOS",
+    "length": "Esta línea mide 135,085 kilómetros",
+    "carbon-footprint": "Las emisiones de carbono estimadas de este itinerario son 4,194,389.2 kg CO₂"
   },
   {
     "line": "21",
-    "itinerary": "DEL-SIS-TEM-ARE-INA-NTE-DEL-CUA-LSO-MOS"
+    "itinerary": "DEL-SIS-TEM-ARE-INA-NTE-DEL-CUA-LSO-MOS",
+    "length": "Esta línea mide 87,232 kilómetros",
+    "carbon-footprint": "Las emisiones de carbono estimadas de este itinerario son 2,708,553.6 kg CO₂"
   },
   {
     "line": "22",
-    "itinerary": "ALF-AYO-MEG-AYT-ODO-CUA-NTO-AJU-STA"
+    "itinerary": "ALF-AYO-MEG-AYT-ODO-CUA-NTO-AJU-STA",
+    "length": "Esta línea mide 62,658 kilómetros",
+    "carbon-footprint": "Las emisiones de carbono estimadas de este itinerario son 1,945,530.9 kg CO₂"
   },
   {
     "line": "23",
-    "itinerary": "LOS-LIM-ITE-SDE-LCI-ELO"
+    "itinerary": "LOS-LIM-ITE-SDE-LCI-ELO",
+    "length": "Esta línea mide 32,215 kilómetros",
+    "carbon-footprint": "Las emisiones de carbono estimadas de este itinerario son 1,000,275.8 kg CO₂"
   },
   {
     "line": "24",
-    "itinerary": "ELO-JOE-NTO-NCE-SMI-RAH-URA-CAN-ADO"
+    "itinerary": "ELO-JOE-NTO-NCE-SMI-RAH-URA-CAN-ADO",
+    "length": "Esta línea mide 41,679 kilómetros",
+    "carbon-footprint": "Las emisiones de carbono estimadas de este itinerario son 1,294,132.9 kg CO₂"
   },
   {
     "line": "25",
-    "itinerary": "RET-AZO-SDE-CUL-TIV-OSZ-URC-IDO-SCO-MOU-NMA-NTO"
+    "itinerary": "RET-AZO-SDE-CUL-TIV-OSZ-URC-IDO-SCO-MOU-NMA-NTO",
+    "length": "Esta línea mide 89,842 kilómetros",
+    "carbon-footprint": "Las emisiones de carbono estimadas de este itinerario son 2,789,594.1 kg CO₂"
   },
   {
     "line": "26",
-    "itinerary": "CIU-DAD-ESG-RIS-ESC-ORD-ILL-ERA-SAL-TAS"
+    "itinerary": "CIU-DAD-ESG-RIS-ESC-ORD-ILL-ERA-SAL-TAS",
+    "length": "Esta línea mide 99,162 kilómetros",
+    "carbon-footprint": "Las emisiones de carbono estimadas de este itinerario son 3,078,980.1 kg CO₂"
   },
   {
     "line": "27",
-    "itinerary": "BES-OSD-ESO-LNE-VAD-OPO-RLO-SPI-COS"
+    "itinerary": "BES-OSD-ESO-LNE-VAD-OPO-RLO-SPI-COS",
+    "length": "Esta línea mide 59,458 kilómetros",
+    "carbon-footprint": "Las emisiones de carbono estimadas de este itinerario son 1,846,170.9 kg CO₂"
   },
   {
     "line": "28",
-    "itinerary": "YPA-RPA-DEA-ENS-USI-TIO-SIN-BOS-TEZ-ONO-CTU-RNO"
+    "itinerary": "YPA-RPA-DEA-ENS-USI-TIO-SIN-BOS-TEZ-ONO-CTU-RNO",
+    "length": "Esta línea mide 104,251 kilómetros",
+    "carbon-footprint": "Las emisiones de carbono estimadas de este itinerario son 3,236,993.5 kg CO₂"
   },
   {
     "line": "29",
-    "itinerary": "SOB-REL-ACE-LES-TIA-LES-PAD-ADE-LOC-ASO"
+    "itinerary": "SOB-REL-ACE-LES-TIA-LES-PAD-ADE-LOC-ASO",
+    "length": "Esta línea mide 83,441 kilómetros",
+    "carbon-footprint": "Las emisiones de carbono estimadas de este itinerario son 2,590,843.0 kg CO₂"
   }
 ]

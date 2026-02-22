@@ -1,9 +1,6 @@
-/* Base variables - EASILY CONFIGURABLE FONT SIZES */
+/* Base variables */
 :root {
   --common-font-size: 1.8vw;
-  /* Mobile font size multipliers - ADJUST THESE TO EXPERIMENT */
-  --mobile-font-multiplier: 1; /* Increase this to make mobile text larger */
-  --mobile-credits-multiplier: 1; /* Adjust credit text size separately */
 }
 
 /* Layout containers */
@@ -17,6 +14,22 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  position: relative;
+}
+
+/* Frosted glass overlay — "the glass is blurry, streaked" */
+.App::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(2px);
+  z-index: 0;
+}
+
+.App > * {
+  position: relative;
+  z-index: 1;
 }
 
 .content-container {
@@ -39,9 +52,6 @@
   flex: 1;
   min-height: 0;
   height: 100%;
-  /* ENABLE SCROLLING */
-  overflow-y: auto;
-  overflow-x: hidden;
 }
 
 .responsive-container {
@@ -51,9 +61,6 @@
   flex: 1;
   min-height: 0;
   height: 100%;
-  /* ENABLE SCROLLING */
-  overflow-y: auto;
-  overflow-x: hidden;
 }
 
 /* Text content - Responsive scaling */
@@ -63,28 +70,177 @@
   font-size: clamp(11px, 1.6vh, 16px);
   line-height: clamp(1.25, 1.4, 1.5);
   text-align: left;
-  color: #ffffff;
+  color: #1a1a1a;
   font-weight: bold;
   opacity: 1;
-  /* Add subtle text shadow for better contrast against background */
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7), 0 0 5px rgba(0, 0, 0, 0.3);
+  /* Subtle text shadow for contrast on frosted background */
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.5);
   /* Mobile-first padding, more generous on desktop */
   padding: clamp(4px, 1vh, 12px) clamp(8px, 2vw, 24px);
   white-space: pre-wrap;
-  overflow: visible; /* CHANGED: Allow content to expand */
-  height: auto; /* CHANGED: Let content determine height */
-  max-height: none; /* CHANGED: Remove height restriction */
+  overflow: hidden;
+  height: 100%;
+  max-height: 100%;
   width: 100%;
   margin: 0;
-  transition: opacity 0.3s ease-in-out, font-size 0.3s ease-out;
+  transition:
+    opacity 220ms ease-out,
+    filter 260ms ease-out,
+    transform 260ms ease-out,
+    font-size 300ms ease-out;
+  will-change: opacity, filter, transform;
 }
 
-.content-window.transitioning .monospace {
-  opacity: 1; /* Keep text visible during transitions */
+.monospace.transition-out {
+  opacity: 0;
+  filter: blur(1.6px);
+  transform: translateY(4px);
+}
+
+.monospace.transition-in {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0);
+  animation: text-settle 260ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+@keyframes text-settle {
+  from {
+    opacity: 0;
+    filter: blur(2px);
+    transform: translateY(-2px);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+  }
+}
+
+/* Desktop-specific improvements */
+@media screen and (min-width: 769px) {
+  .monospace {
+    /* Larger margins for desktop breathing room */
+    padding-left: clamp(24px, 4vw, 60px);
+    padding-top: clamp(12px, 2vh, 30px);
+    /* Original larger font for shorter poem */
+    font-size: clamp(14px, 1.8vh, 18px);
+  }
+  
+  .content-container {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  
+  /* Credits positioned to match poem left margin */
+  .credits-container {
+    left: clamp(24px, 4vw, 60px); /* Match poem padding-left */
+    max-width: calc(50vw - 80px); /* More space for desktop */
+  }
+}
+
+/* Tablet adjustments */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .monospace {
+    font-size: clamp(12px, 1.7vh, 16px);
+    padding-left: clamp(16px, 3vw, 40px);
+    padding-top: clamp(8px, 1.5vh, 20px);
+  }
+  
+  /* Credits positioned to match poem left margin */
+  .credits-container {
+    left: clamp(16px, 3vw, 40px); /* Match poem padding-left */
+    max-width: calc(50vw - 60px); /* Prevent overlap on tablet */
+  }
+}
+
+/* Mobile-specific optimizations */
+@media screen and (max-width: 480px) {
+  .App {
+    /* Ensure proper mobile viewport handling */
+    height: 100vh;
+    height: 100dvh; /* Dynamic viewport height for mobile browsers */
+  }
+  
+  .content-container {
+    height: 100vh;
+    height: 100dvh;
+    /* Minimal safe area padding */
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 70px); /* Back to reasonable spacing */
+  }
+  
+  .content-window {
+    /* Further reduce margins to prevent word overflow */
+    padding-top: clamp(4px, 1vh, 8px);
+    padding-bottom: clamp(50px, 8vh, 70px); /* Back to reasonable spacing */
+    padding-left: clamp(4px, 1vw, 8px);
+    padding-right: clamp(4px, 1vw, 8px);
+  }
+  
+  .monospace {
+    /* Return to larger, more readable font */
+    font-size: clamp(7px, 1.3vh, 9px);
+    /* LEADING CONTROL: Adjust this value to change line spacing */
+    line-height: 1.3; /* Options: 1.2 (tighter), 1.3 (current), 1.4 (looser) */
+    /* Minimal internal padding to maximize text width */
+    padding: clamp(1px, 0.2vh, 2px) clamp(1px, 0.2vw, 2px);
+    /* Light text shadow */
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
+    /* Ensure full width usage and better wrapping */
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    /* FIXED: Less aggressive word breaking to prevent airport code splitting */
+    word-wrap: normal; /* Changed from break-word */
+    overflow-wrap: normal; /* Changed from break-word */
+    hyphens: manual; /* Changed from auto - only break at explicit hyphens */
+    /* Allow horizontal scroll if airport codes are too long rather than breaking */
+    overflow-x: auto;
+  }
+  
+  .stanza {
+    /* INTERSTANZAIC LEADING CONTROL: Adjust this value to change stanza spacing */
+    margin-bottom: clamp(8px, 1.2vh, 15px); /* Options: 3-6px (tight), 5-10px (current), 8-15px (loose) */
+  }
+  
+  /* Combined credits for mobile - left corner, two-line layout */
+  .credits-container {
+    left: clamp(4px, 1vw, 8px) !important; /* Left corner, match content padding */
+    transform: none; /* Remove centering transform */
+    bottom: clamp(8px, 1.5vh, 16px); /* Match CTA button height exactly */
+    text-align: left; /* Left-aligned text */
+    font-size: clamp(6px, 1vh, 8px); /* Readable font for mobile */
+    line-height: 1.15; /* Tight line spacing for mobile */
+    padding: clamp(3px, 0.5vh, 5px) clamp(4px, 0.8vw, 6px); /* Padding for two lines */
+    max-width: calc(50vw - 16px); /* Prevent overlap with CTA */
+    white-space: normal; /* Allow wrapping to two lines */
+    overflow: visible; /* Show both lines */
+  }
+  
+  .cta-container {
+    right: clamp(4px, 1vw, 8px); /* Right corner, match content padding */
+    bottom: clamp(8px, 1.5vh, 16px); /* Exact same height as credits */
+  }
+  
+  .cta-button {
+    font-size: clamp(8px, 1.4vh, 11px);
+    padding: clamp(3px, 0.6vh, 5px) clamp(6px, 1.5vw, 10px);
+  }
 }
 
 .stanza {
-  margin-bottom: clamp(8px, 1.2vh, 18px);
+  margin-bottom: clamp(18px, 1.5vh, 48px);
+}
+
+.poem-title-stanza {
+  margin-bottom: clamp(26px, 2.2vh, 64px);
+}
+
+.poem-title-text {
+  font-weight: 700;
+  font-size: 1.12em;
+  letter-spacing: 0.01em;
 }
 
 /* Interactive elements */
@@ -95,12 +251,15 @@
 
 .poem-text:hover {
   color: rgba(234, 85, 93, 0.9);
-  text-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+  /* Removed text-shadow to eliminate blur effect */
 }
 
 .code {
   transition: all 0.2s ease;
   cursor: pointer;
+  /* FIXED: Prevent airport codes from breaking */
+  white-space: nowrap;
+  display: inline-block;
 }
 
 .code:hover {
@@ -127,7 +286,6 @@
 /* Info bubble - Responsive sizing */
 .info-bubble {
   position: absolute;
-  display: none;
   border-radius: 10px;
   z-index: 4;
   background-color: rgba(255, 255, 255, 0.2);
@@ -139,22 +297,36 @@
   border: 1px solid rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(4px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 220ms ease-out, transform 260ms cubic-bezier(0.22, 1, 0.36, 1);
   opacity: 0;
-  transform: scale(0.95);
+  transform: translateY(4px) scale(0.985);
   transform-origin: center bottom;
   box-sizing: border-box;
+  visibility: hidden;
+  pointer-events: none;
 }
 
 .info-bubble.show-info {
   opacity: 1;
   transform: scale(1) translateY(0);
+  visibility: visible;
+  pointer-events: auto;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .monospace,
+  .info-bubble,
+  .cta-button,
+  .code {
+    animation: none !important;
+    transition: none !important;
+  }
 }
 
 /* Airport-specific bubble */
 .airport-info-window {
-  width: clamp(180px, 25vw, 200px) !important;
-  height: clamp(180px, 25vw, 200px) !important;
+  width: clamp(220px, 30vw, 280px) !important;
+  height: clamp(220px, 30vw, 280px) !important;
   padding: 0;
   background-size: cover;
   background-position: center;
@@ -187,6 +359,7 @@
 .line-data-window-custom {
   background-color: rgba(255, 255, 255, 0.9) !important;
   border-radius: 10px !important;
+  font-family: "Courier New", monospace !important;
   font-size: clamp(10px, 0.8rem, 13px);
   line-height: 1.3;
   display: flex;
@@ -196,6 +369,10 @@
   gap: clamp(6px, 1vh, 12px);
   box-sizing: border-box;
   height: 100%;
+}
+
+.line-data-window-custom * {
+  font-family: "Courier New", monospace !important;
 }
 
 .line-data-window-custom .itinerary,
@@ -208,44 +385,37 @@
   max-width: 100%;
 }
 
-/* Credits containers - CONSISTENT SIZING */
-.author-container,
-.photographer-container {
+/* Combined Credits Container - Left-aligned with poem margin */
+.credits-container {
   position: fixed;
-  bottom: clamp(8px, 1.5vh, 16px);
-  padding: clamp(4px, 0.8vh, 8px) clamp(6px, 1.2vw, 12px);
-  font-size: clamp(10px, 0.8rem, 13px);
+  left: clamp(8px, 2vw, 24px); /* Match content-window padding */
+  bottom: clamp(8px, 1.5vh, 16px); /* Match CTA button height exactly */
+  text-align: left;
+  z-index: 10;
+  padding: clamp(4px, 0.8vh, 8px) clamp(6px, 1.2vw, 12px); /* Increased padding for two lines */
+  font-size: clamp(8px, 0.7rem, 11px); /* Keep readable font size */
+  line-height: 1.2; /* Tight line spacing for two lines */
   color: #000;
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 3px;
-  z-index: 10;
   transition: all 0.2s ease;
-  /* CONSISTENT WIDTH */
-  min-width: clamp(120px, 20vw, 160px);
-  text-align: center;
-  box-sizing: border-box;
+  max-width: calc(50vw - 32px); /* Limit width to prevent overlap */
+  white-space: normal; /* Allow wrapping to two lines */
+  overflow: visible; /* Show both lines */
 }
 
-.author-container {
-  left: clamp(8px, 1.5vw, 16px);
-}
-
-.photographer-container {
-  right: clamp(8px, 1.5vw, 16px);
-}
-
-.author-container:hover,
-.photographer-container:hover {
+.credits-container:hover {
   background-color: rgba(255, 255, 255, 0.9);
   transform: translateY(-1px);
 }
 
-/* CTA Button - Default positioning */
+/* Credits hover remains consistent across all devices */
+
+/* CTA Button - Lower-right corner positioning */
 .cta-container {
   position: fixed;
-  left: 50%;
+  right: clamp(8px, 1.5vw, 16px); /* Right corner instead of center */
   bottom: clamp(8px, 1.5vh, 16px);
-  transform: translateX(-50%);
   text-align: center;
   z-index: 10;
 }
@@ -271,261 +441,53 @@
   box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
 }
 
-/* Combined credits element for very small screens */
-.combined-credits {
-  position: fixed;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: calc(clamp(6px, 1vh, 8px) * var(--mobile-credits-multiplier));
-  color: #000;
-  background-color: rgba(255, 255, 255, 0.7);
-  border-radius: 2px;
-  padding: clamp(1px, 0.2vh, 2px) clamp(3px, 0.5vw, 4px);
-  text-align: center;
-  max-width: 95vw;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  z-index: 10;
-  display: none; /* Hidden by default, shown via JavaScript */
-}
-
-/* Desktop-specific improvements */
-@media screen and (min-width: 769px) {
-  .monospace {
-    /* Larger margins for desktop breathing room */
-    padding-left: clamp(24px, 4vw, 60px);
-    padding-top: clamp(12px, 2vh, 30px);
-    /* Slightly larger font on desktop */
-    font-size: clamp(14px, 1.8vh, 18px);
-  }
-
-  .content-container {
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-}
-
-/* Tablet adjustments */
-@media screen and (min-width: 481px) and (max-width: 768px) {
-  .monospace {
-    font-size: clamp(12px, 1.7vh, 16px);
-    padding-left: clamp(16px, 3vw, 40px);
-    padding-top: clamp(8px, 1.5vh, 20px);
-  }
-}
-
-/* Mobile-specific optimizations - IMPROVED LAYOUT WITH LARGER FONTS */
-@media screen and (max-width: 480px) {
-  .App {
-    /* Ensure proper mobile viewport handling */
-    height: 100vh;
-    height: 100dvh; /* Dynamic viewport height for mobile browsers */
-  }
-
-  .content-container {
-    height: 100vh;
-    height: 100dvh;
-    /* Minimal safe area padding */
-    padding-top: env(safe-area-inset-top, 0px);
-    padding-bottom: env(
-      safe-area-inset-bottom,
-      80px
-    ); /* Space for stacked elements */
-  }
-
-  .content-window {
-    /* Reduce margins but ensure scrolling works */
-    padding-top: clamp(4px, 1vh, 8px);
-    padding-bottom: clamp(
-      65px,
-      10vh,
-      80px
-    ); /* Adjusted for smaller, properly spaced bottom elements */
-    padding-left: clamp(4px, 1vw, 8px);
-    padding-right: clamp(4px, 1vw, 8px);
-    /* ENABLE SCROLLING ON MOBILE */
-    overflow-y: auto;
-    overflow-x: hidden;
-  }
-
-  .monospace {
-    /* SLIGHTLY SMALLER, CONFIGURABLE FONT SIZE */
-    font-size: calc(clamp(7px, 1.2vh, 9px) * var(--mobile-font-multiplier));
-    /* Better line-height for readability */
-    line-height: 1.3;
-    /* Minimal internal padding to maximize text width */
-    padding: clamp(2px, 0.4vh, 4px) clamp(2px, 0.4vw, 4px);
-    /* Light text shadow */
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
-    /* Ensure full width usage and better wrapping */
-    width: 100%;
-    max-width: 100%;
-    box-sizing: border-box;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    hyphens: auto; /* Allow hyphenation for long words */
-    /* Allow breaking at hyphens in airport codes */
-    word-break: break-all;
-  }
-
-  .stanza {
-    /* Maintain good stanza spacing */
-    margin-bottom: clamp(6px, 1.2vh, 12px);
-  }
-
-  /* IMPROVED: Much smaller, non-overlapping bottom elements */
-  .author-container,
-  .photographer-container {
-    position: fixed;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-    font-size: calc(clamp(6px, 1vh, 8px) * var(--mobile-credits-multiplier));
-    padding: clamp(2px, 0.3vh, 3px) clamp(4px, 0.8vw, 6px);
-    background-color: rgba(255, 255, 255, 0.75);
-    border-radius: 2px;
-    /* MUCH SMALLER SIZING */
-    min-width: clamp(100px, 25vw, 130px);
-    max-width: 80vw;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    box-sizing: border-box;
-  }
-
-  .author-container {
-    bottom: clamp(50px, 7vh, 60px); /* Above photographer with more space */
-  }
-
-  .photographer-container {
-    bottom: clamp(35px, 5vh, 42px); /* Above CTA button with more space */
-  }
-
-  .cta-container {
-    bottom: clamp(8px, 1.2vh, 12px); /* Lowest element */
-  }
-
-  .cta-button {
-    font-size: calc(clamp(7px, 1.1vh, 9px) * var(--mobile-credits-multiplier));
-    padding: clamp(3px, 0.4vh, 4px) clamp(6px, 1.2vw, 10px);
-    border-radius: 12px;
-    max-width: 80vw;
-    box-sizing: border-box;
-  }
-
-  /* Mobile hover states */
-  .author-container:hover,
-  .photographer-container:hover {
-    background-color: rgba(255, 255, 255, 0.9);
-    transform: translateX(-50%) translateY(-1px);
-  }
-}
-
-/* Very small screens - Use combined credits */
-@media screen and (max-width: 320px) {
-  .content-window {
-    /* Ultra-minimal margins for tiny screens */
-    padding-top: clamp(3px, 0.8vh, 6px);
-    padding-bottom: clamp(
-      50px,
-      10vh,
-      70px
-    ); /* Reduced since we have fewer elements */
-    padding-left: clamp(3px, 0.8vw, 6px);
-    padding-right: clamp(3px, 0.8vw, 6px);
-  }
-
-  .monospace {
-    /* Configurable ultra-small font for tiny screens */
-    font-size: calc(clamp(7px, 1.2vh, 9px) * var(--mobile-font-multiplier));
-    /* Better line spacing for readability */
-    line-height: 1.3;
-    padding: clamp(1px, 0.2vh, 2px) clamp(1px, 0.2vw, 2px);
-    word-break: break-word;
-    overflow-wrap: break-word;
-    hyphens: auto;
-  }
-
-  .stanza {
-    /* Tight but readable stanza spacing */
-    margin-bottom: clamp(4px, 0.8vh, 8px);
-  }
-
-  /* Hide individual credits on very small screens */
-  .author-container,
-  .photographer-container {
-    display: none;
-  }
-
-  /* Show combined credits instead */
-  .combined-credits {
-    display: block;
-    bottom: clamp(35px, 5vh, 45px);
-  }
-
-  .cta-container {
-    bottom: clamp(8px, 1.5vh, 12px);
-  }
-
-  .cta-button {
-    font-size: calc(clamp(8px, 1.2vh, 10px) * var(--mobile-credits-multiplier));
-    padding: clamp(3px, 0.4vh, 4px) clamp(8px, 1.5vw, 12px);
-  }
-}
-
-/* Landscape mobile adjustments - SCROLLING ENABLED */
+/* Landscape mobile adjustments */
 @media screen and (max-height: 500px) and (orientation: landscape) and (max-width: 480px) {
   .content-window {
     padding-top: clamp(2px, 0.6vh, 4px);
-    padding-bottom: clamp(
-      45px,
-      9vh,
-      60px
-    ); /* Adjusted for smaller elements in landscape */
+    padding-bottom: clamp(35px, 6vh, 50px); /* Back to reasonable spacing */
     padding-left: clamp(4px, 1vw, 8px);
     padding-right: clamp(4px, 1vw, 8px);
-    /* CRITICAL: Enable scrolling in landscape */
-    overflow-y: auto;
-    overflow-x: hidden;
-    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
   }
-
+  
   .monospace {
-    /* Configurable small font for landscape */
-    font-size: calc(clamp(7px, 1.3vh, 9px) * var(--mobile-font-multiplier));
-    line-height: 1.2;
+    /* Return to readable landscape font */
+    font-size: clamp(6px, 1.2vh, 8px);
+    line-height: 1.15;
     padding: clamp(1px, 0.2vh, 2px) clamp(1px, 0.2vw, 2px);
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    hyphens: auto;
+    /* FIXED: Prevent airport code breaking in landscape too */
+    word-wrap: normal;
+    overflow-wrap: normal;
+    hyphens: manual;
+    overflow-x: auto;
   }
-
+  
   .stanza {
-    margin-bottom: clamp(3px, 0.6vh, 6px);
+    margin-bottom: clamp(2px, 0.5vh, 4px);
   }
 
-  .author-container {
-    bottom: clamp(30px, 6vh, 38px);
-    font-size: calc(clamp(5px, 0.9vh, 7px) * var(--mobile-credits-multiplier));
-    min-width: clamp(90px, 22vw, 120px);
-    padding: clamp(1px, 0.2vh, 2px) clamp(3px, 0.6vw, 5px);
+  /* Combined credits for landscape mobile - two-line layout */
+  .credits-container {
+    left: clamp(4px, 1vw, 8px) !important; /* Left corner, match content padding */
+    transform: none; /* Remove centering transform */
+    bottom: clamp(8px, 1.5vh, 12px); /* Match CTA button height exactly */
+    text-align: left; /* Left-aligned text */
+    font-size: clamp(4px, 0.9vh, 6px); /* Small font for landscape mobile */
+    line-height: 1.1; /* Very tight line spacing for landscape */
+    padding: clamp(2px, 0.3vh, 3px) clamp(3px, 0.5vw, 4px); /* Compact padding for two lines */
+    max-width: calc(50vw - 16px); /* Prevent overlap with CTA */
+    white-space: normal; /* Allow wrapping to two lines */
+    overflow: visible; /* Show both lines */
   }
-
-  .photographer-container {
-    bottom: clamp(20px, 4vh, 25px);
-    font-size: calc(clamp(5px, 0.9vh, 7px) * var(--mobile-credits-multiplier));
-    min-width: clamp(90px, 22vw, 120px);
-    padding: clamp(1px, 0.2vh, 2px) clamp(3px, 0.6vw, 5px);
-  }
-
+  
   .cta-container {
-    bottom: clamp(4px, 0.8vh, 6px);
+    right: clamp(4px, 1vw, 8px); /* Right corner, match content padding */
+    bottom: clamp(8px, 1.5vh, 12px); /* Exact same height as credits */
   }
-
+  
   .cta-button {
-    font-size: calc(clamp(7px, 1.2vh, 9px) * var(--mobile-credits-multiplier));
-    padding: clamp(2px, 0.3vh, 3px) clamp(6px, 1vw, 8px);
+    font-size: clamp(6px, 1.2vh, 8px);
+    padding: clamp(2px, 0.3vh, 3px) clamp(3px, 0.8vw, 5px);
   }
 }
 
@@ -534,7 +496,7 @@
   .App {
     height: -webkit-fill-available;
   }
-
+  
   .content-container {
     height: -webkit-fill-available;
     max-height: -webkit-fill-available;
@@ -545,7 +507,7 @@
 @media screen and (min-resolution: 2dppx) {
   .monospace {
     font-weight: bold; /* Keep bold for better readability */
-    color: #ffffff; /* Ensure bright white on high-DPI */
+    color: #1a1a1a; /* Dark text on frosted background */
   }
 }
 
@@ -562,24 +524,181 @@
   border-radius: 2px;
 }
 
-/* EASY FONT SIZE CONFIGURATION CLASSES */
-/* Add these classes to your HTML body to experiment with different sizes */
-.font-size-small {
-  --mobile-font-multiplier: 0.8;
-  --mobile-credits-multiplier: 0.9;
+/* Ensure no text overflow on very small screens */
+@media screen and (max-width: 320px) {
+  .content-container {
+    padding-bottom: env(safe-area-inset-bottom, 70px); /* Back to reasonable spacing */
+  }
+  
+  .content-window {
+    /* Ultra-minimal margins for tiny screens */
+    padding-top: clamp(3px, 0.8vh, 6px);
+    padding-bottom: clamp(40px, 8vh, 60px); /* Back to reasonable spacing */
+    padding-left: clamp(3px, 0.8vw, 6px);
+    padding-right: clamp(3px, 0.8vw, 6px);
+  }
+  
+  .monospace {
+    /* Return to readable font size for tiny screens */
+    font-size: clamp(6px, 1.1vh, 8px);
+    /* Better line spacing for readability */
+    line-height: 1.25;
+    padding: clamp(1px, 0.2vh, 2px) clamp(1px, 0.2vw, 2px);
+    /* FIXED: Prevent breaking on tiny screens too */
+    word-wrap: normal;
+    overflow-wrap: normal;
+    hyphens: manual;
+    overflow-x: auto;
+  }
+  
+  .stanza {
+    /* Tight but readable stanza spacing */
+    margin-bottom: clamp(3px, 0.6vh, 6px);
+  }
+  
+  /* Combined credits for very small screens - two-line layout */
+  .credits-container {
+    left: clamp(3px, 0.8vw, 6px) !important; /* Left corner, match content padding */
+    transform: none; /* Remove centering transform */
+    bottom: clamp(8px, 1.5vh, 12px); /* Match CTA button height exactly */
+    text-align: left; /* Left-aligned text */
+    font-size: clamp(5px, 0.8vh, 7px); /* Small but readable font for tiny screens */
+    line-height: 1.1; /* Tight line spacing */
+    padding: clamp(2px, 0.3vh, 3px) clamp(3px, 0.5vw, 4px); /* Compact padding for two lines */
+    max-width: calc(50vw - 12px); /* Prevent overlap with CTA */
+    white-space: normal; /* Allow wrapping to two lines */
+    overflow: visible; /* Show both lines */
+  }
+  
+  .cta-container {
+    right: clamp(3px, 0.8vw, 6px); /* Right corner, match content padding */
+    bottom: clamp(8px, 1.5vh, 12px); /* Exact same height as credits */
+  }
 }
 
-.font-size-medium {
-  --mobile-font-multiplier: 1;
-  --mobile-credits-multiplier: 1;
+/* Museum-quality line data display enhancement */
+
+/* Enhanced line data window with archival/scientific aesthetic */
+.line-data-window-custom {
+  background-color: rgba(252, 252, 252, 0.97) !important;
+  border: none !important;
+  border-left: 3px solid #2c2c2c !important;
+  border-radius: 2px !important;
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.12),
+    0 2px 8px rgba(0, 0, 0, 0.08) !important;
+  backdrop-filter: blur(8px);
+  
+  /* Typography improvements */
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
+  font-size: clamp(11px, 0.9rem, 14px);
+  line-height: 1.45;
+  
+  /* Layout refinements */
+  padding: clamp(16px, 2vh, 24px) clamp(18px, 2.5vw, 28px);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: clamp(12px, 1.5vh, 18px);
+  text-align: left;
+  
+  /* Refined dimensions */
+  width: clamp(240px, 32vw, 320px);
+  min-height: clamp(160px, 25vh, 220px);
+  max-width: 85vw; /* Ensure mobile compatibility */
 }
 
-.font-size-large {
-  --mobile-font-multiplier: 1.2;
-  --mobile-credits-multiplier: 1.1;
+/* Itinerary styling - monospace for technical precision */
+.line-data-window-custom .itinerary {
+  font-family: 'Courier New', 'Monaco', monospace !important;
+  font-size: clamp(9px, 0.8rem, 12px);
+  font-weight: 600;
+  color: #1a1a1a;
+  letter-spacing: 0.3px;
+  line-height: 1.25;
+  /* Prevent breaking airport codes - only break at hyphens */
+  word-break: normal;
+  overflow-wrap: normal;
+  white-space: normal;
+  /* Allow horizontal scroll if needed rather than breaking codes */
+  overflow-x: auto;
+  /* Ensure codes stay together by breaking only at natural word boundaries (hyphens) */
+  hyphens: manual;
+  margin-bottom: clamp(4px, 0.5vh, 8px);
+  padding-bottom: clamp(8px, 1vh, 12px);
+  border-bottom: 1px solid rgba(44, 44, 44, 0.15);
 }
 
-.font-size-xlarge {
-  --mobile-font-multiplier: 1.4;
-  --mobile-credits-multiplier: 1.2;
+/* Distance measurement - emphasize the scale */
+.line-data-window-custom .length {
+  font-weight: 400;
+  color: #333;
+  margin: 0;
+  padding: clamp(4px, 0.5vh, 6px) 0;
+}
+
+.line-data-window-custom .length strong {
+  font-weight: 600;
+  color: #2c2c2c;
+}
+
+/* Carbon footprint - let the numbers carry weight */
+.line-data-window-custom .carbon-footprint {
+  font-weight: 400;
+  color: #444;
+  margin: 0;
+  padding: clamp(4px, 0.5vh, 6px) 0 0 0;
+  border-top: 1px solid rgba(44, 44, 44, 0.1);
+  padding-top: clamp(8px, 1vh, 12px);
+}
+
+.line-data-window-custom .carbon-footprint strong {
+  font-weight: 600;
+  color: #2c2c2c;
+}
+
+/* Subtle emphasis for high-impact routes */
+.line-data-window-custom[data-high-emissions="true"] {
+  border-left-color: #8b4513;
+}
+
+.line-data-window-custom[data-high-emissions="true"] .carbon-footprint {
+  color: #654321;
+}
+
+.line-data-window-custom[data-high-emissions="true"] .carbon-footprint strong {
+  color: #5d3a1a;
+}
+
+/* Mobile refinements */
+@media screen and (max-width: 480px) {
+  .line-data-window-custom {
+    width: clamp(220px, 90vw, 300px);
+    padding: clamp(12px, 1.5vh, 18px) clamp(14px, 2vw, 20px);
+    gap: clamp(8px, 1vh, 12px);
+    min-height: clamp(140px, 20vh, 180px);
+  }
+  
+  .line-data-window-custom .itinerary {
+    font-size: clamp(8px, 0.7rem, 10px);
+    letter-spacing: 0.2px;
+    line-height: 1.2;
+    /* Ensure mobile doesn't break codes either */
+    word-break: normal;
+    overflow-wrap: normal;
+    overflow-x: auto;
+  }
+}
+
+/* High-resolution display optimizations */
+@media screen and (min-resolution: 2dppx) {
+  .line-data-window-custom {
+    border-left-width: 2px;
+  }
+  
+  .line-data-window-custom .itinerary,
+  .line-data-window-custom .length strong,
+  .line-data-window-custom .carbon-footprint strong {
+    font-weight: 500; /* Slightly reduce weight on high-DPI for better rendering */
+  }
 }
