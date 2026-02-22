@@ -79,7 +79,7 @@ html, body, #root {
   font-family: "Courier New", monospace;
   /* Balanced responsive font sizing */
   font-size: clamp(11px, 1.6vh, 16px);
-  line-height: clamp(1.25, 1.4, 1.5);
+  line-height: clamp(1.16, 1.28, 1.36);
   text-align: left;
   color: #1a1a1a;
   font-weight: bold;
@@ -87,7 +87,7 @@ html, body, #root {
   /* Subtle text shadow for contrast on frosted background */
   text-shadow: 0 1px 2px rgba(255, 255, 255, 0.5);
   /* Mobile-first padding, more generous on desktop */
-  padding: clamp(4px, 1vh, 12px) clamp(8px, 2vw, 24px);
+  padding: clamp(2px, 0.6vh, 8px) clamp(8px, 2vw, 24px);
   white-space: pre-wrap;
   overflow-y: auto;
   overflow-x: hidden;
@@ -214,7 +214,7 @@ html, body, #root {
   
   .stanza {
     /* INTERSTANZAIC LEADING CONTROL: Adjust this value to change stanza spacing */
-    margin-bottom: clamp(8px, 1.2vh, 15px); /* Options: 3-6px (tight), 5-10px (current), 8-15px (loose) */
+    margin-bottom: clamp(6px, 0.9vh, 12px); /* Options: 3-6px (tight), 5-10px (current), 8-15px (loose) */
   }
   
   /* Combined credits for mobile - left corner, two-line layout */
@@ -243,11 +243,11 @@ html, body, #root {
 }
 
 .stanza {
-  margin-bottom: clamp(18px, 1.5vh, 48px);
+  margin-bottom: clamp(10px, 1.0vh, 22px);
 }
 
 .poem-title-stanza {
-  margin-bottom: clamp(26px, 2.2vh, 64px);
+  margin-bottom: clamp(14px, 1.3vh, 30px);
 }
 
 .poem-title-text {
